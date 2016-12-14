@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_abstract_global_similarity_8cs" kind="file" language="C#">
+    <compoundname>AbstractGlobalSimilarity.cs</compoundname>
+    <innerclass refid="class_abstract_global_similarity" prot="public">AbstractGlobalSimilarity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5" refid="class_abstract_global_similarity" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_abstract_global_similarity" kindref="compound">AbstractGlobalSimilarity</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref><sp/><ref refid="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" kindref="member">consultStructure</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_abstract_global_similarity_1ac13f827a8680ef4b6ee0d40911969f16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_abstract_global_similarity_1ac13f827a8680ef4b6ee0d40911969f16" kindref="member">AbstractGlobalSimilarity</ref>(<ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref><sp/>consultStructure)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.consultStructure<sp/>=<sp/><ref refid="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" kindref="member">consultStructure</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_abstract_global_similarity_1a4b97677ae2f5a0bdee41019b40b45114" kindref="member">GetSimilarity</ref>(<ref refid="class_case" kindref="compound">Case</ref><sp/>searchCase,<sp/><ref refid="class_case" kindref="compound">Case</ref><sp/>retrieveCase);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="AbstractClasses/AbstractGlobalSimilarity.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_consult_structure" kind="class" language="C#" prot="public">
+    <compoundname>ConsultStructure</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_consult_structure_1a337fe1e0d78aeb5e773f0bbeb5c9f5cc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_abstract_global_similarity" kindref="compound">AbstractGlobalSimilarity</ref></type>
+        <definition>AbstractGlobalSimilarity ConsultStructure.globalSimilarity</definition>
+        <argsstring></argsstring>
+        <name>globalSimilarity</name>
+        <briefdescription>
+<para>Função de similaridade global que será utilizada na análise de similaridade de dois casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultStructure.cs" line="13" column="1" bodyfile="Core/ConsultStructure.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_consult_structure_1a56fa08cf2668d390c41bb101d7fb9d40" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_consult_params" kindref="compound">ConsultParams</ref> &gt;</type>
+        <definition>List&lt;ConsultParams&gt; ConsultStructure.consultParams</definition>
+        <argsstring></argsstring>
+        <name>consultParams</name>
+        <briefdescription>
+<para>Lista de todos os parâmetros de consulta utilizados na análise de similaridade. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultStructure.cs" line="18" column="1" bodyfile="Core/ConsultStructure.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_consult_structure_1a187faa0426546ce6251903a0064cf8a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ConsultStructure.ConsultStructure</definition>
+        <argsstring>()</argsstring>
+        <name>ConsultStructure</name>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultStructure.cs" line="23" column="1" bodyfile="Core/ConsultStructure.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que contém a estrutura de consulta que será utilizada na análise de similaridade entre os casos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="25">
+        <label>ConsultStructure</label>
+        <link refid="class_consult_structure"/>
+        <childnode refid="26" relation="usage">
+          <edgelabel>globalSimilarity</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>AbstractGlobalSimilarity</label>
+        <link refid="class_abstract_global_similarity"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>consultStructure</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Core/ConsultStructure.cs" line="8" column="1" bodyfile="Core/ConsultStructure.cs" bodystart="8" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_consult_structure_1a56fa08cf2668d390c41bb101d7fb9d40" prot="public" virt="non-virtual"><scope>ConsultStructure</scope><name>consultParams</name></member>
+      <member refid="class_consult_structure_1a187faa0426546ce6251903a0064cf8a1" prot="public" virt="non-virtual"><scope>ConsultStructure</scope><name>ConsultStructure</name></member>
+      <member refid="class_consult_structure_1a337fe1e0d78aeb5e773f0bbeb5c9f5cc" prot="public" virt="non-virtual"><scope>ConsultStructure</scope><name>globalSimilarity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

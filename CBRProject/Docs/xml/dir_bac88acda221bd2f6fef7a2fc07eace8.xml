@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_bac88acda221bd2f6fef7a2fc07eace8" kind="dir">
+    <compoundname>SimilarityMeasures/GlobalSimilarities</compoundname>
+    <innerfile refid="_euclidean_distance_8cs">EuclideanDistance.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SimilarityMeasures/GlobalSimilarities/"/>
+  </compounddef>
+</doxygen>

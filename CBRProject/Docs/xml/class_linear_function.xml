@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_linear_function" kind="class" language="C#" prot="public">
+    <compoundname>LinearFunction</compoundname>
+    <basecompoundref refid="class_abstract_local_similarity" prot="public" virt="non-virtual">AbstractLocalSimilarity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_linear_function_1a02c5184fbce966f6416f980b64944224" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LinearFunction.minVal</definition>
+        <argsstring></argsstring>
+        <name>minVal</name>
+        <briefdescription>
+<para>Valor mínimo do domínio do atributo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" line="12" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_linear_function_1a75f293f81529fa12df8f4040bbbaa2e8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LinearFunction.maxVal</definition>
+        <argsstring></argsstring>
+        <name>maxVal</name>
+        <briefdescription>
+<para>Valor máximo do domínio do atributo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" line="17" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_linear_function_1ac8a3882badd498ea34c032d63aca3715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LinearFunction.LinearFunction</definition>
+        <argsstring>(float minVal, float maxVal)</argsstring>
+        <name>LinearFunction</name>
+        <param>
+          <type>float</type>
+          <declname>minVal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxVal</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_linear_function" kindref="compound">LinearFunction</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minVal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor mínimo do domínio do atributo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxVal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor máximo do domínio do atributo.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" line="24" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_linear_function_1addbfc2ff35037c40ae27c30e993e82ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float LinearFunction.GetSimilarity</definition>
+        <argsstring>(ConsultParams consultParams, Case searchCase, Case retriveCase)</argsstring>
+        <name>GetSimilarity</name>
+        <reimplements refid="class_abstract_local_similarity_1a6c51b1fe09e99d509da0d3634225ca36">GetSimilarity</reimplements>
+        <param>
+          <type><ref refid="class_consult_params" kindref="compound">ConsultParams</ref></type>
+          <declname>consultParams</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>searchCase</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>retriveCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que retorna o valor de similaridade entre dois números. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>consultParams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parâmetros da consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>searchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso utilizado como consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>retriveCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso recuperado da base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Valor de similaridade entre dois números.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" line="37" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que utilizar uma função linear para calcular a similaridade local entre dois atributos do caso. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>AbstractLocalSimilarity</label>
+        <link refid="class_abstract_local_similarity"/>
+      </node>
+      <node id="36">
+        <label>LinearFunction</label>
+        <link refid="class_linear_function"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>AbstractLocalSimilarity</label>
+        <link refid="class_abstract_local_similarity"/>
+      </node>
+      <node id="38">
+        <label>LinearFunction</label>
+        <link refid="class_linear_function"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" line="8" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/LinearFunction.cs" bodystart="7" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_abstract_local_similarity_1a211b136bd5cd1525f3e4637868252696" prot="public" virt="non-virtual"><scope>LinearFunction</scope><name>AbstractLocalSimilarity</name></member>
+      <member refid="class_linear_function_1addbfc2ff35037c40ae27c30e993e82ca" prot="public" virt="virtual"><scope>LinearFunction</scope><name>GetSimilarity</name></member>
+      <member refid="class_linear_function_1ac8a3882badd498ea34c032d63aca3715" prot="public" virt="non-virtual"><scope>LinearFunction</scope><name>LinearFunction</name></member>
+      <member refid="class_linear_function_1a75f293f81529fa12df8f4040bbbaa2e8" prot="private" virt="non-virtual"><scope>LinearFunction</scope><name>maxVal</name></member>
+      <member refid="class_linear_function_1a02c5184fbce966f6416f980b64944224" prot="private" virt="non-virtual"><scope>LinearFunction</scope><name>minVal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

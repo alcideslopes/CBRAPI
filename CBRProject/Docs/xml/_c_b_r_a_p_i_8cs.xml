@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_c_b_r_a_p_i_8cs" kind="file" language="C#">
+    <compoundname>CBRAPI.cs</compoundname>
+    <innerclass refid="class_c_b_r_a_p_i" prot="public">CBRAPI</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_c_b_r_a_p_i" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_b_r_a_p_i" kindref="compound">CBRAPI</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref><sp/>caseBaseConnector;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_c_b_r_a_p_i_1a6e4d8b523865ebbc550a50ff1785231b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_c_b_r_a_p_i_1a6e4d8b523865ebbc550a50ff1785231b" kindref="member">CBRAPI</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref>(</highlight><highlight class="stringliteral">&quot;CaseBase.json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1a1aa00f0a3bcf25bafa6bab87ec1e455e" kindref="member">CreateCaseBase</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1a6b5e35626b1b6a718bbdba83f153834b" kindref="member">LoadCaseBase</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_c_b_r_a_p_i_1a9e521eefe067de857bcc86990d64256e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_c_b_r_a_p_i_1a9e521eefe067de857bcc86990d64256e" kindref="member">CBRAPI</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref>(fileName);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1a1aa00f0a3bcf25bafa6bab87ec1e455e" kindref="member">CreateCaseBase</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1a6b5e35626b1b6a718bbdba83f153834b" kindref="member">LoadCaseBase</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_c_b_r_a_p_i_1a887ddacca4fd9f79d20f8b392b3e8a8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_b_r_a_p_i_1a887ddacca4fd9f79d20f8b392b3e8a8e" kindref="member">AddCase</ref>(<ref refid="class_case" kindref="compound">Case</ref><sp/>newCase)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1abfb6f1dae5b06827667d5f033736f7a0" kindref="member">AddCase</ref>(newCase);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_c_b_r_a_p_i_1a592d54dfb86d74154ed0e74dc3aa6f73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_b_r_a_p_i_1a592d54dfb86d74154ed0e74dc3aa6f73" kindref="member">RemoveCase</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>caseID)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1a1a85907a149e2bb4e3c198936e6f59d3" kindref="member">RemoveCase</ref>(caseID);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_c_b_r_a_p_i_1a80d48f14d29ee6c2ac4bacff19ea9c0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_b_r_a_p_i_1a80d48f14d29ee6c2ac4bacff19ea9c0c" kindref="member">EditCase</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>caseID,<sp/><ref refid="class_case" kindref="compound">Case</ref><sp/>newCase)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caseBaseConnector.<ref refid="class_case_base_connector_1afc9618b6b8f22f9184e59a86086be239" kindref="member">EditCase</ref>(caseID,<sp/>newCase);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_c_b_r_a_p_i_1af1992aae5101968f2a851f1ac1c044d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Result&gt;<sp/><ref refid="class_c_b_r_a_p_i_1af1992aae5101968f2a851f1ac1c044d7" kindref="member">Retrieve</ref>(<ref refid="class_case" kindref="compound">Case</ref><sp/>searchCase,<sp/><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref><sp/>consultStructure)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(consultStructure<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_search" kindref="compound">Search</ref><sp/>cbrSearch<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_search" kindref="compound">Search</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cbrSearch.<ref refid="class_search_1ad64beea83d7d2a74950c327ec443daf9" kindref="member">DoSearch</ref>(searchCase,<sp/>caseBaseConnector,<sp/>consultStructure);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Core/CBRAPI.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+.TH "LinearFunction" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+LinearFunction \- Classe que utilizar uma função linear para calcular a similaridade local entre dois atributos do caso\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAbstractLocalSimilarity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLinearFunction\fP (float minVal, float maxVal)"
+.br
+.RI "Construtor da classe \fBLinearFunction\fP\&. "
+.ti -1c
+.RI "override float \fBGetSimilarity\fP (\fBConsultParams\fP consultParams, \fBCase\fP searchCase, \fBCase\fP retriveCase)"
+.br
+.RI "Método que retorna o valor de similaridade entre dois números\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe que utilizar uma função linear para calcular a similaridade local entre dois atributos do caso\&. 
+
+
+.PP
+Definition at line 7 of file LinearFunction\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "LinearFunction\&.LinearFunction (float minVal, float maxVal)"
+
+.PP
+Construtor da classe \fBLinearFunction\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIminVal\fP Valor mínimo do domínio do atributo\&.
+.br
+\fImaxVal\fP Valor máximo do domínio do atributo\&.
+.RE
+.PP
+
+.PP
+Definition at line 24 of file LinearFunction\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "override float LinearFunction\&.GetSimilarity (\fBConsultParams\fP consultParams, \fBCase\fP searchCase, \fBCase\fP retriveCase)\fC [virtual]\fP"
+
+.PP
+Método que retorna o valor de similaridade entre dois números\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIconsultParams\fP Parâmetros da consulta\&.
+.br
+\fIsearchCase\fP Caso utilizado como consulta\&.
+.br
+\fIretriveCase\fP Caso recuperado da base de casos\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Valor de similaridade entre dois números\&.
+.RE
+.PP
+
+.PP
+Implements \fBAbstractLocalSimilarity\fP\&.
+.PP
+Definition at line 37 of file LinearFunction\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

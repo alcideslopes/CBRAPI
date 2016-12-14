@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_euclidean_distance" kind="class" language="C#" prot="public">
+    <compoundname>EuclideanDistance</compoundname>
+    <basecompoundref refid="class_abstract_global_similarity" prot="public" virt="non-virtual">AbstractGlobalSimilarity</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_euclidean_distance_1aaa6a56ca6465502e28906a0c6b89318c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EuclideanDistance.EuclideanDistance</definition>
+        <argsstring>(ConsultStructure consultStructure)</argsstring>
+        <name>EuclideanDistance</name>
+        <param>
+          <type><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref></type>
+          <declname>consultStructure</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_euclidean_distance" kindref="compound">EuclideanDistance</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>consultStructure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estrutura de consulta que será utilizada na análise de similaridade.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/GlobalSimilarities/EuclideanDistance.cs" line="13" column="1" bodyfile="SimilarityMeasures/GlobalSimilarities/EuclideanDistance.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_euclidean_distance_1a1b27b1fd06df3e3defca37187634951e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float EuclideanDistance.GetSimilarity</definition>
+        <argsstring>(Case searchCase, Case retrieveCase)</argsstring>
+        <name>GetSimilarity</name>
+        <reimplements refid="class_abstract_global_similarity_1a4b97677ae2f5a0bdee41019b40b45114">GetSimilarity</reimplements>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>searchCase</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>retrieveCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que retorna o valor (entre 0 e 1) de similaridade entre dois casos utilizando a função da Distância Euclidiana. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso utilizado como consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>retrieveCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Casos recuperado da base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Valor (entre 0 e 1) de similaridade entre dois casos</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/GlobalSimilarities/EuclideanDistance.cs" line="24" column="1" bodyfile="SimilarityMeasures/GlobalSimilarities/EuclideanDistance.cs" bodystart="24" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que utiliza da função da Distância Euclidiana para calcular a similaridade global entre dois casos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="31">
+        <label>EuclideanDistance</label>
+        <link refid="class_euclidean_distance"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>AbstractGlobalSimilarity</label>
+        <link refid="class_abstract_global_similarity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>ConsultStructure</label>
+        <link refid="class_consult_structure"/>
+        <childnode refid="34" relation="usage">
+          <edgelabel>globalSimilarity</edgelabel>
+        </childnode>
+      </node>
+      <node id="33">
+        <label>EuclideanDistance</label>
+        <link refid="class_euclidean_distance"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>AbstractGlobalSimilarity</label>
+        <link refid="class_abstract_global_similarity"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>consultStructure</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SimilarityMeasures/GlobalSimilarities/EuclideanDistance.cs" line="7" column="1" bodyfile="SimilarityMeasures/GlobalSimilarities/EuclideanDistance.cs" bodystart="7" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_abstract_global_similarity_1ac13f827a8680ef4b6ee0d40911969f16" prot="public" virt="non-virtual"><scope>EuclideanDistance</scope><name>AbstractGlobalSimilarity</name></member>
+      <member refid="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" prot="public" virt="non-virtual"><scope>EuclideanDistance</scope><name>consultStructure</name></member>
+      <member refid="class_euclidean_distance_1aaa6a56ca6465502e28906a0c6b89318c" prot="public" virt="non-virtual"><scope>EuclideanDistance</scope><name>EuclideanDistance</name></member>
+      <member refid="class_euclidean_distance_1a1b27b1fd06df3e3defca37187634951e" prot="public" virt="virtual"><scope>EuclideanDistance</scope><name>GetSimilarity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

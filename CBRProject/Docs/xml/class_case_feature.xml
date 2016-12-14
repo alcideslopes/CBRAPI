@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_case_feature" kind="class" language="C#" prot="public">
+    <compoundname>CaseFeature</compoundname>
+    <basecompoundref refid="class_abstract_feature" prot="public" virt="non-virtual">AbstractFeature</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_case_feature_1a1aa9c93657c27e6a8debdf71a40f5b89" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CaseFeature.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+<para>Valor do atributo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseFeature.cs" line="12" column="1" bodyfile="Core/CaseFeature.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_case_feature_1a9443dc93f40c63cc812c4102f15498c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CaseFeature.CaseFeature</definition>
+        <argsstring>(int id, string name, Type type, object value)</argsstring>
+        <name>CaseFeature</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_case_feature" kindref="compound">CaseFeature</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do atributo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do atributo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo de dado do atributo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor do atributo.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseFeature.cs" line="21" column="1" bodyfile="Core/CaseFeature.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_feature_1afcbe5b640972620a71192f3b45c8cbcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CaseFeature.CaseFeature</definition>
+        <argsstring>(int id, string name, Type type)</argsstring>
+        <name>CaseFeature</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_case_feature" kindref="compound">CaseFeature</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do atributo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do atributo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo de dado do atributo.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseFeature.cs" line="32" column="1" bodyfile="Core/CaseFeature.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que representa um atributo presente na descrição do problema ou solução de um caso. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>AbstractFeature</label>
+        <link refid="class_abstract_feature"/>
+      </node>
+      <node id="15">
+        <label>CaseFeature</label>
+        <link refid="class_case_feature"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>AbstractFeature</label>
+        <link refid="class_abstract_feature"/>
+      </node>
+      <node id="17">
+        <label>CaseFeature</label>
+        <link refid="class_case_feature"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Core/CaseFeature.cs" line="7" column="1" bodyfile="Core/CaseFeature.cs" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_abstract_feature_1acc855b1f84c6671d1fdb922a831ed170" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>AbstractFeature</name></member>
+      <member refid="class_case_feature_1a9443dc93f40c63cc812c4102f15498c5" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>CaseFeature</name></member>
+      <member refid="class_case_feature_1afcbe5b640972620a71192f3b45c8cbcc" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>CaseFeature</name></member>
+      <member refid="class_abstract_feature_1a3ac6f31b3e7a83ce4f73fab9f0139b7f" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>id</name></member>
+      <member refid="class_abstract_feature_1a48465ede21b778021ea03b56d2117bc8" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>name</name></member>
+      <member refid="class_abstract_feature_1ac65cf0de277a8a62b6b1e1bdc249b237" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>type</name></member>
+      <member refid="class_case_feature_1a1aa9c93657c27e6a8debdf71a40f5b89" prot="public" virt="non-virtual"><scope>CaseFeature</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_case_feature_8cs" kind="file" language="C#">
+    <compoundname>CaseFeature.cs</compoundname>
+    <innerclass refid="class_case_feature" prot="public">CaseFeature</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">[Serializable]</highlight></codeline>
+<codeline lineno="7" refid="class_case_feature" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_case_feature" kindref="compound">CaseFeature</ref><sp/>:<sp/><ref refid="class_abstract_feature" kindref="compound">AbstractFeature</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_case_feature_1a1aa9c93657c27e6a8debdf71a40f5b89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_case_feature_1a1aa9c93657c27e6a8debdf71a40f5b89" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_case_feature_1a9443dc93f40c63cc812c4102f15498c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_case_feature_1a9443dc93f40c63cc812c4102f15498c5" kindref="member">CaseFeature</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_abstract_feature_1a48465ede21b778021ea03b56d2117bc8" kindref="member">name</ref>,<sp/>Type<sp/><ref refid="class_abstract_feature_1ac65cf0de277a8a62b6b1e1bdc249b237" kindref="member">type</ref>,<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>value)<sp/>:<sp/>base<sp/>(id,<sp/>name,<sp/>type)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.value<sp/>=<sp/>value.ToString();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_case_feature_1afcbe5b640972620a71192f3b45c8cbcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_case_feature_1afcbe5b640972620a71192f3b45c8cbcc" kindref="member">CaseFeature</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_abstract_feature_1a48465ede21b778021ea03b56d2117bc8" kindref="member">name</ref>,<sp/>Type<sp/><ref refid="class_abstract_feature_1ac65cf0de277a8a62b6b1e1bdc249b237" kindref="member">type</ref>)<sp/>:<sp/>base(id,<sp/>name,<sp/>type)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Core/CaseFeature.cs"/>
+  </compounddef>
+</doxygen>

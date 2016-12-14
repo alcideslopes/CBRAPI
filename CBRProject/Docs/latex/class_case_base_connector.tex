@@ -1,0 +1,194 @@
+\hypertarget{class_case_base_connector}{}\section{Case\+Base\+Connector Class Reference}
+\label{class_case_base_connector}\index{Case\+Base\+Connector@{Case\+Base\+Connector}}
+
+
+Classe resposável por fazer a conexão entre a biblioteca C\+BR e a base de casos.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_case_base_connector_adb41d690fb4a06168c15b3b750c0cda2}{Case\+Base\+Connector} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector}. \end{DoxyCompactList}\item 
+void \hyperlink{class_case_base_connector_a6b5e35626b1b6a718bbdba83f153834b}{Load\+Case\+Base} ()
+\begin{DoxyCompactList}\small\item\em Método que carrega todos os casos da base de casos na memória R\+AM. \end{DoxyCompactList}\item 
+void \hyperlink{class_case_base_connector_a1aa00f0a3bcf25bafa6bab87ec1e455e}{Create\+Case\+Base} ()
+\begin{DoxyCompactList}\small\item\em Método que cria a base de casos. \end{DoxyCompactList}\item 
+\hyperlink{class_case}{Case} \hyperlink{class_case_base_connector_abca3ec961411fce4948f4ea5b40e9fb6}{Load\+Case} (int case\+Id)
+\begin{DoxyCompactList}\small\item\em Método que carrega um caso da base de casos. \end{DoxyCompactList}\item 
+void \hyperlink{class_case_base_connector_abfb6f1dae5b06827667d5f033736f7a0}{Add\+Case} (\hyperlink{class_case}{Case} new\+Case)
+\begin{DoxyCompactList}\small\item\em Método que adiciona um novo caso na base de casos. \end{DoxyCompactList}\item 
+void \hyperlink{class_case_base_connector_a1a85907a149e2bb4e3c198936e6f59d3}{Remove\+Case} (int case\+Id)
+\begin{DoxyCompactList}\small\item\em Método que remove um caso da base de casos. \end{DoxyCompactList}\item 
+void \hyperlink{class_case_base_connector_afc9618b6b8f22f9184e59a86086be239}{Edit\+Case} (int case\+Id, \hyperlink{class_case}{Case} new\+Case)
+\begin{DoxyCompactList}\small\item\em Método que substitui um caso da base de casos por um novo caso. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_case}{Case} $>$ \hyperlink{class_case_base_connector_afbbc563b42797bf19f8790f40e34425a}{case\+Base}
+\begin{DoxyCompactList}\small\item\em Lista de casos presentes na base de casos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe resposável por fazer a conexão entre a biblioteca C\+BR e a base de casos. 
+
+
+
+Definition at line 10 of file Case\+Base\+Connector.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_case_base_connector_adb41d690fb4a06168c15b3b750c0cda2}{}\label{class_case_base_connector_adb41d690fb4a06168c15b3b750c0cda2} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Case\+Base\+Connector()}{CaseBaseConnector()}}
+{\footnotesize\ttfamily Case\+Base\+Connector.\+Case\+Base\+Connector (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do arquivo que representa a base de casos.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file Case\+Base\+Connector.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_case_base_connector_abfb6f1dae5b06827667d5f033736f7a0}{}\label{class_case_base_connector_abfb6f1dae5b06827667d5f033736f7a0} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Add\+Case@{Add\+Case}}
+\index{Add\+Case@{Add\+Case}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Add\+Case()}{AddCase()}}
+{\footnotesize\ttfamily void Case\+Base\+Connector.\+Add\+Case (\begin{DoxyParamCaption}\item[{\hyperlink{class_case}{Case}}]{new\+Case }\end{DoxyParamCaption})}
+
+
+
+Método que adiciona um novo caso na base de casos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Case} & Novo caso a ser adicionado na base de casos.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 95 of file Case\+Base\+Connector.\+cs.
+
+\hypertarget{class_case_base_connector_a1aa00f0a3bcf25bafa6bab87ec1e455e}{}\label{class_case_base_connector_a1aa00f0a3bcf25bafa6bab87ec1e455e} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Create\+Case\+Base@{Create\+Case\+Base}}
+\index{Create\+Case\+Base@{Create\+Case\+Base}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Create\+Case\+Base()}{CreateCaseBase()}}
+{\footnotesize\ttfamily void Case\+Base\+Connector.\+Create\+Case\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que cria a base de casos. 
+
+
+
+Definition at line 56 of file Case\+Base\+Connector.\+cs.
+
+\hypertarget{class_case_base_connector_afc9618b6b8f22f9184e59a86086be239}{}\label{class_case_base_connector_afc9618b6b8f22f9184e59a86086be239} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Edit\+Case@{Edit\+Case}}
+\index{Edit\+Case@{Edit\+Case}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Edit\+Case()}{EditCase()}}
+{\footnotesize\ttfamily void Case\+Base\+Connector.\+Edit\+Case (\begin{DoxyParamCaption}\item[{int}]{case\+Id,  }\item[{\hyperlink{class_case}{Case}}]{new\+Case }\end{DoxyParamCaption})}
+
+
+
+Método que substitui um caso da base de casos por um novo caso. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em case\+Id} & Identificador do caso a ser alterado na base de casos.\\
+\hline
+{\em new\+Case} & Novo caso que alterará um caso presente na base de casos.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 123 of file Case\+Base\+Connector.\+cs.
+
+\hypertarget{class_case_base_connector_abca3ec961411fce4948f4ea5b40e9fb6}{}\label{class_case_base_connector_abca3ec961411fce4948f4ea5b40e9fb6} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Load\+Case@{Load\+Case}}
+\index{Load\+Case@{Load\+Case}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Load\+Case()}{LoadCase()}}
+{\footnotesize\ttfamily \hyperlink{class_case}{Case} Case\+Base\+Connector.\+Load\+Case (\begin{DoxyParamCaption}\item[{int}]{case\+Id }\end{DoxyParamCaption})}
+
+
+
+Método que carrega um caso da base de casos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em case\+Id} & Identificador do caso a ser carregado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 77 of file Case\+Base\+Connector.\+cs.
+
+\hypertarget{class_case_base_connector_a6b5e35626b1b6a718bbdba83f153834b}{}\label{class_case_base_connector_a6b5e35626b1b6a718bbdba83f153834b} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Load\+Case\+Base@{Load\+Case\+Base}}
+\index{Load\+Case\+Base@{Load\+Case\+Base}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Load\+Case\+Base()}{LoadCaseBase()}}
+{\footnotesize\ttfamily void Case\+Base\+Connector.\+Load\+Case\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que carrega todos os casos da base de casos na memória R\+AM. 
+
+
+
+Definition at line 40 of file Case\+Base\+Connector.\+cs.
+
+\hypertarget{class_case_base_connector_a1a85907a149e2bb4e3c198936e6f59d3}{}\label{class_case_base_connector_a1a85907a149e2bb4e3c198936e6f59d3} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!Remove\+Case@{Remove\+Case}}
+\index{Remove\+Case@{Remove\+Case}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{Remove\+Case()}{RemoveCase()}}
+{\footnotesize\ttfamily void Case\+Base\+Connector.\+Remove\+Case (\begin{DoxyParamCaption}\item[{int}]{case\+Id }\end{DoxyParamCaption})}
+
+
+
+Método que remove um caso da base de casos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em case\+Id} & Identificador do caso a ser removido da base de casos.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file Case\+Base\+Connector.\+cs.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_case_base_connector_afbbc563b42797bf19f8790f40e34425a}{}\label{class_case_base_connector_afbbc563b42797bf19f8790f40e34425a} 
+\index{Case\+Base\+Connector@{Case\+Base\+Connector}!case\+Base@{case\+Base}}
+\index{case\+Base@{case\+Base}!Case\+Base\+Connector@{Case\+Base\+Connector}}
+\subsubsection{\texorpdfstring{case\+Base}{caseBase}}
+{\footnotesize\ttfamily List$<$\hyperlink{class_case}{Case}$>$ Case\+Base\+Connector.\+case\+Base}
+
+
+
+Lista de casos presentes na base de casos. 
+
+
+
+Definition at line 15 of file Case\+Base\+Connector.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Core/\hyperlink{_case_base_connector_8cs}{Case\+Base\+Connector.\+cs}\end{DoxyCompactItemize}

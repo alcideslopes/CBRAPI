@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_65856e56a59c4a8e7abc36dac88a0342" kind="dir">
+    <compoundname>AbstractClasses</compoundname>
+    <innerfile refid="_abstract_feature_8cs">AbstractFeature.cs</innerfile>
+    <innerfile refid="_abstract_global_similarity_8cs">AbstractGlobalSimilarity.cs</innerfile>
+    <innerfile refid="_abstract_local_similarity_8cs">AbstractLocalSimilarity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="AbstractClasses/"/>
+  </compounddef>
+</doxygen>

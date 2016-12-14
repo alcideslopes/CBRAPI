@@ -1,0 +1,83 @@
+.TH "ConsultParams" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ConsultParams \- Classe que contém os parâmetros da consulta que serão utilizados para a análise de similaridade entre dois casos\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBConsultParams\fP (List< int > \fBindexes\fP, float \fBweight\fP, \fBAbstractLocalSimilarity\fP \fBlocalSimilarity\fP)"
+.br
+.RI "Construtor da classe \fBConsultParams\fP\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "float \fBweight\fP"
+.br
+.RI "Peso da consulta na análise de similaridade\&. "
+.ti -1c
+.RI "\fBAbstractLocalSimilarity\fP \fBlocalSimilarity\fP"
+.br
+.RI "Função de similaridade local que será utilizada na consulta\&. "
+.ti -1c
+.RI "List< int > \fBindexes\fP"
+.br
+.RI "Índice dos atributos utilizados na consulta\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe que contém os parâmetros da consulta que serão utilizados para a análise de similaridade entre dois casos\&. 
+
+
+.PP
+Definition at line 8 of file ConsultParams\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ConsultParams\&.ConsultParams (List< int > indexes, float weight, \fBAbstractLocalSimilarity\fP localSimilarity)"
+
+.PP
+Construtor da classe \fBConsultParams\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindexes\fP Índice dos atributos utilizados na consulta\&.
+.br
+\fIweight\fP Peso da consulta na análise de similaridade\&.
+.br
+\fIlocalSimilarity\fP Função de similaridade local que será utilizada na consulta\&.
+.RE
+.PP
+
+.PP
+Definition at line 31 of file ConsultParams\&.cs\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "List<int> ConsultParams\&.indexes"
+
+.PP
+Índice dos atributos utilizados na consulta\&. 
+.PP
+Definition at line 23 of file ConsultParams\&.cs\&.
+.SS "\fBAbstractLocalSimilarity\fP ConsultParams\&.localSimilarity"
+
+.PP
+Função de similaridade local que será utilizada na consulta\&. 
+.PP
+Definition at line 18 of file ConsultParams\&.cs\&.
+.SS "float ConsultParams\&.weight"
+
+.PP
+Peso da consulta na análise de similaridade\&. 
+.PP
+Definition at line 13 of file ConsultParams\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

@@ -1,0 +1,88 @@
+\hypertarget{class_euclidean_distance}{}\section{Euclidean\+Distance Class Reference}
+\label{class_euclidean_distance}\index{Euclidean\+Distance@{Euclidean\+Distance}}
+
+
+Classe que utiliza da função da Distância Euclidiana para calcular a similaridade global entre dois casos.  
+
+
+Inheritance diagram for Euclidean\+Distance\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_euclidean_distance}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_euclidean_distance_aaa6a56ca6465502e28906a0c6b89318c}{Euclidean\+Distance} (\hyperlink{class_consult_structure}{Consult\+Structure} \hyperlink{class_abstract_global_similarity_a471ea41af416fd702d48f3b143416e66}{consult\+Structure})
+\begin{DoxyCompactList}\small\item\em Construtor da classe \hyperlink{class_euclidean_distance}{Euclidean\+Distance}. \end{DoxyCompactList}\item 
+override float \hyperlink{class_euclidean_distance_a1b27b1fd06df3e3defca37187634951e}{Get\+Similarity} (\hyperlink{class_case}{Case} search\+Case, \hyperlink{class_case}{Case} retrieve\+Case)
+\begin{DoxyCompactList}\small\item\em Método que retorna o valor (entre 0 e 1) de similaridade entre dois casos utilizando a função da Distância Euclidiana. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe que utiliza da função da Distância Euclidiana para calcular a similaridade global entre dois casos. 
+
+
+
+Definition at line 7 of file Euclidean\+Distance.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_euclidean_distance_aaa6a56ca6465502e28906a0c6b89318c}{}\label{class_euclidean_distance_aaa6a56ca6465502e28906a0c6b89318c} 
+\index{Euclidean\+Distance@{Euclidean\+Distance}!Euclidean\+Distance@{Euclidean\+Distance}}
+\index{Euclidean\+Distance@{Euclidean\+Distance}!Euclidean\+Distance@{Euclidean\+Distance}}
+\subsubsection{\texorpdfstring{Euclidean\+Distance()}{EuclideanDistance()}}
+{\footnotesize\ttfamily Euclidean\+Distance.\+Euclidean\+Distance (\begin{DoxyParamCaption}\item[{\hyperlink{class_consult_structure}{Consult\+Structure}}]{consult\+Structure }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \hyperlink{class_euclidean_distance}{Euclidean\+Distance}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em consult\+Structure} & Estrutura de consulta que será utilizada na análise de similaridade.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 13 of file Euclidean\+Distance.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_euclidean_distance_a1b27b1fd06df3e3defca37187634951e}{}\label{class_euclidean_distance_a1b27b1fd06df3e3defca37187634951e} 
+\index{Euclidean\+Distance@{Euclidean\+Distance}!Get\+Similarity@{Get\+Similarity}}
+\index{Get\+Similarity@{Get\+Similarity}!Euclidean\+Distance@{Euclidean\+Distance}}
+\subsubsection{\texorpdfstring{Get\+Similarity()}{GetSimilarity()}}
+{\footnotesize\ttfamily override float Euclidean\+Distance.\+Get\+Similarity (\begin{DoxyParamCaption}\item[{\hyperlink{class_case}{Case}}]{search\+Case,  }\item[{\hyperlink{class_case}{Case}}]{retrieve\+Case }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Método que retorna o valor (entre 0 e 1) de similaridade entre dois casos utilizando a função da Distância Euclidiana. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em search\+Case} & Caso utilizado como consulta.\\
+\hline
+{\em retrieve\+Case} & Casos recuperado da base de casos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Valor (entre 0 e 1) de similaridade entre dois casos
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abstract_global_similarity_a4b97677ae2f5a0bdee41019b40b45114}{Abstract\+Global\+Similarity}.
+
+
+
+Definition at line 24 of file Euclidean\+Distance.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Similarity\+Measures/\+Global\+Similarities/\hyperlink{_euclidean_distance_8cs}{Euclidean\+Distance.\+cs}\end{DoxyCompactItemize}

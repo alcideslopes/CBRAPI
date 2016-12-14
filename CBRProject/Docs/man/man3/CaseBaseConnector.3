@@ -1,0 +1,155 @@
+.TH "CaseBaseConnector" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CaseBaseConnector \- Classe resposável por fazer a conexão entre a biblioteca CBR e a base de casos\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCaseBaseConnector\fP (string fileName)"
+.br
+.RI "Construtor da classe \fBCaseBaseConnector\fP\&. "
+.ti -1c
+.RI "void \fBLoadCaseBase\fP ()"
+.br
+.RI "Método que carrega todos os casos da base de casos na memória RAM\&. "
+.ti -1c
+.RI "void \fBCreateCaseBase\fP ()"
+.br
+.RI "Método que cria a base de casos\&. "
+.ti -1c
+.RI "\fBCase\fP \fBLoadCase\fP (int caseId)"
+.br
+.RI "Método que carrega um caso da base de casos\&. "
+.ti -1c
+.RI "void \fBAddCase\fP (\fBCase\fP newCase)"
+.br
+.RI "Método que adiciona um novo caso na base de casos\&. "
+.ti -1c
+.RI "void \fBRemoveCase\fP (int caseId)"
+.br
+.RI "Método que remove um caso da base de casos\&. "
+.ti -1c
+.RI "void \fBEditCase\fP (int caseId, \fBCase\fP newCase)"
+.br
+.RI "Método que substitui um caso da base de casos por um novo caso\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "List< \fBCase\fP > \fBcaseBase\fP"
+.br
+.RI "Lista de casos presentes na base de casos\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe resposável por fazer a conexão entre a biblioteca CBR e a base de casos\&. 
+
+
+.PP
+Definition at line 10 of file CaseBaseConnector\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "CaseBaseConnector\&.CaseBaseConnector (string fileName)"
+
+.PP
+Construtor da classe \fBCaseBaseConnector\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfileName\fP Nome do arquivo que representa a base de casos\&.
+.RE
+.PP
+
+.PP
+Definition at line 31 of file CaseBaseConnector\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void CaseBaseConnector\&.AddCase (\fBCase\fP newCase)"
+
+.PP
+Método que adiciona um novo caso na base de casos\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewCase\fP Novo caso a ser adicionado na base de casos\&.
+.RE
+.PP
+
+.PP
+Definition at line 95 of file CaseBaseConnector\&.cs\&.
+.SS "void CaseBaseConnector\&.CreateCaseBase ()"
+
+.PP
+Método que cria a base de casos\&. 
+.PP
+Definition at line 56 of file CaseBaseConnector\&.cs\&.
+.SS "void CaseBaseConnector\&.EditCase (int caseId, \fBCase\fP newCase)"
+
+.PP
+Método que substitui um caso da base de casos por um novo caso\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcaseId\fP Identificador do caso a ser alterado na base de casos\&.
+.br
+\fInewCase\fP Novo caso que alterará um caso presente na base de casos\&.
+.RE
+.PP
+
+.PP
+Definition at line 123 of file CaseBaseConnector\&.cs\&.
+.SS "\fBCase\fP CaseBaseConnector\&.LoadCase (int caseId)"
+
+.PP
+Método que carrega um caso da base de casos\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcaseId\fP Identificador do caso a ser carregado\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 77 of file CaseBaseConnector\&.cs\&.
+.SS "void CaseBaseConnector\&.LoadCaseBase ()"
+
+.PP
+Método que carrega todos os casos da base de casos na memória RAM\&. 
+.PP
+Definition at line 40 of file CaseBaseConnector\&.cs\&.
+.SS "void CaseBaseConnector\&.RemoveCase (int caseId)"
+
+.PP
+Método que remove um caso da base de casos\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcaseId\fP Identificador do caso a ser removido da base de casos\&.
+.RE
+.PP
+
+.PP
+Definition at line 105 of file CaseBaseConnector\&.cs\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "List<\fBCase\fP> CaseBaseConnector\&.caseBase"
+
+.PP
+Lista de casos presentes na base de casos\&. 
+.PP
+Definition at line 15 of file CaseBaseConnector\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

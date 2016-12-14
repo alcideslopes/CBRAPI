@@ -1,0 +1,74 @@
+.TH "EuclideanDistance" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+EuclideanDistance \- Classe que utiliza da função da Distância Euclidiana para calcular a similaridade global entre dois casos\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAbstractGlobalSimilarity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEuclideanDistance\fP (\fBConsultStructure\fP \fBconsultStructure\fP)"
+.br
+.RI "Construtor da classe \fBEuclideanDistance\fP\&. "
+.ti -1c
+.RI "override float \fBGetSimilarity\fP (\fBCase\fP searchCase, \fBCase\fP retrieveCase)"
+.br
+.RI "Método que retorna o valor (entre 0 e 1) de similaridade entre dois casos utilizando a função da Distância Euclidiana\&. "
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Classe que utiliza da função da Distância Euclidiana para calcular a similaridade global entre dois casos\&. 
+
+
+.PP
+Definition at line 7 of file EuclideanDistance\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "EuclideanDistance\&.EuclideanDistance (\fBConsultStructure\fP consultStructure)"
+
+.PP
+Construtor da classe \fBEuclideanDistance\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIconsultStructure\fP Estrutura de consulta que será utilizada na análise de similaridade\&.
+.RE
+.PP
+
+.PP
+Definition at line 13 of file EuclideanDistance\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "override float EuclideanDistance\&.GetSimilarity (\fBCase\fP searchCase, \fBCase\fP retrieveCase)\fC [virtual]\fP"
+
+.PP
+Método que retorna o valor (entre 0 e 1) de similaridade entre dois casos utilizando a função da Distância Euclidiana\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchCase\fP Caso utilizado como consulta\&.
+.br
+\fIretrieveCase\fP Casos recuperado da base de casos\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Valor (entre 0 e 1) de similaridade entre dois casos
+.RE
+.PP
+
+.PP
+Implements \fBAbstractGlobalSimilarity\fP\&.
+.PP
+Definition at line 24 of file EuclideanDistance\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

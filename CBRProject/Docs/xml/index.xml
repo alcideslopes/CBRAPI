@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
+  <compound refid="class_abstract_feature" kind="class"><name>AbstractFeature</name>
+    <member refid="class_abstract_feature_1a3ac6f31b3e7a83ce4f73fab9f0139b7f" kind="variable"><name>id</name></member>
+    <member refid="class_abstract_feature_1a48465ede21b778021ea03b56d2117bc8" kind="variable"><name>name</name></member>
+    <member refid="class_abstract_feature_1ac65cf0de277a8a62b6b1e1bdc249b237" kind="variable"><name>type</name></member>
+    <member refid="class_abstract_feature_1acc855b1f84c6671d1fdb922a831ed170" kind="function"><name>AbstractFeature</name></member>
+  </compound>
+  <compound refid="class_abstract_global_similarity" kind="class"><name>AbstractGlobalSimilarity</name>
+    <member refid="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" kind="variable"><name>consultStructure</name></member>
+    <member refid="class_abstract_global_similarity_1ac13f827a8680ef4b6ee0d40911969f16" kind="function"><name>AbstractGlobalSimilarity</name></member>
+    <member refid="class_abstract_global_similarity_1a4b97677ae2f5a0bdee41019b40b45114" kind="function"><name>GetSimilarity</name></member>
+  </compound>
+  <compound refid="class_abstract_local_similarity" kind="class"><name>AbstractLocalSimilarity</name>
+    <member refid="class_abstract_local_similarity_1a211b136bd5cd1525f3e4637868252696" kind="function"><name>AbstractLocalSimilarity</name></member>
+    <member refid="class_abstract_local_similarity_1a6c51b1fe09e99d509da0d3634225ca36" kind="function"><name>GetSimilarity</name></member>
+  </compound>
+  <compound refid="class_case" kind="class"><name>Case</name>
+    <member refid="class_case_1ac1ad667fc94d57692c17f5e3445096fc" kind="variable"><name>id</name></member>
+    <member refid="class_case_1a12be58e57891febe52b147a9266e54cb" kind="variable"><name>caseDescription</name></member>
+    <member refid="class_case_1a0aa512e57a95843a20dd5190b043d793" kind="variable"><name>caseSolution</name></member>
+    <member refid="class_case_1a78f4e108e49ef2fed453aa3e6cdd1ada" kind="function"><name>Case</name></member>
+  </compound>
+  <compound refid="class_case_base_connector" kind="class"><name>CaseBaseConnector</name>
+    <member refid="class_case_base_connector_1afbbc563b42797bf19f8790f40e34425a" kind="variable"><name>caseBase</name></member>
+    <member refid="class_case_base_connector_1ac50b0d8f29b6376dd81c872981907644" kind="variable"><name>filePath</name></member>
+    <member refid="class_case_base_connector_1a2a0de26266bcfbd70986e29f6078391a" kind="variable"><name>fileName</name></member>
+    <member refid="class_case_base_connector_1adb41d690fb4a06168c15b3b750c0cda2" kind="function"><name>CaseBaseConnector</name></member>
+    <member refid="class_case_base_connector_1a6b5e35626b1b6a718bbdba83f153834b" kind="function"><name>LoadCaseBase</name></member>
+    <member refid="class_case_base_connector_1a1aa00f0a3bcf25bafa6bab87ec1e455e" kind="function"><name>CreateCaseBase</name></member>
+    <member refid="class_case_base_connector_1abca3ec961411fce4948f4ea5b40e9fb6" kind="function"><name>LoadCase</name></member>
+    <member refid="class_case_base_connector_1abfb6f1dae5b06827667d5f033736f7a0" kind="function"><name>AddCase</name></member>
+    <member refid="class_case_base_connector_1a1a85907a149e2bb4e3c198936e6f59d3" kind="function"><name>RemoveCase</name></member>
+    <member refid="class_case_base_connector_1afc9618b6b8f22f9184e59a86086be239" kind="function"><name>EditCase</name></member>
+    <member refid="class_case_base_connector_1a9d42d88a9e90045ee622868569743476" kind="function"><name>SaveCaseBase</name></member>
+    <member refid="class_case_base_connector_1ae6a1c5e5c4e943e58c35134a6d7f83b9" kind="function"><name>ConvertObjectToJSON</name></member>
+    <member refid="class_case_base_connector_1a2004b5584cac41231aa0b5d229f07cff" kind="function"><name>ConvertJSONToClass&lt; T &gt;</name></member>
+    <member refid="class_case_base_connector_1a3525e9a7a789e705f7786fa8ddd9238e" kind="function"><name>ReadToEnd</name></member>
+  </compound>
+  <compound refid="class_case_feature" kind="class"><name>CaseFeature</name>
+    <member refid="class_case_feature_1a1aa9c93657c27e6a8debdf71a40f5b89" kind="variable"><name>value</name></member>
+    <member refid="class_case_feature_1a9443dc93f40c63cc812c4102f15498c5" kind="function"><name>CaseFeature</name></member>
+    <member refid="class_case_feature_1afcbe5b640972620a71192f3b45c8cbcc" kind="function"><name>CaseFeature</name></member>
+  </compound>
+  <compound refid="class_c_b_r_a_p_i" kind="class"><name>CBRAPI</name>
+    <member refid="class_c_b_r_a_p_i_1ac3598c12a5be725adf5f85370733b257" kind="variable"><name>caseBaseConnector</name></member>
+    <member refid="class_c_b_r_a_p_i_1a6e4d8b523865ebbc550a50ff1785231b" kind="function"><name>CBRAPI</name></member>
+    <member refid="class_c_b_r_a_p_i_1a9e521eefe067de857bcc86990d64256e" kind="function"><name>CBRAPI</name></member>
+    <member refid="class_c_b_r_a_p_i_1a887ddacca4fd9f79d20f8b392b3e8a8e" kind="function"><name>AddCase</name></member>
+    <member refid="class_c_b_r_a_p_i_1a592d54dfb86d74154ed0e74dc3aa6f73" kind="function"><name>RemoveCase</name></member>
+    <member refid="class_c_b_r_a_p_i_1a80d48f14d29ee6c2ac4bacff19ea9c0c" kind="function"><name>EditCase</name></member>
+    <member refid="class_c_b_r_a_p_i_1af1992aae5101968f2a851f1ac1c044d7" kind="function"><name>Retrieve</name></member>
+  </compound>
+  <compound refid="class_consult_params" kind="class"><name>ConsultParams</name>
+    <member refid="class_consult_params_1aedab07a8d28bff47cbc569778533493e" kind="variable"><name>weight</name></member>
+    <member refid="class_consult_params_1a1910c45b23c7c0654518ba528d3e5a69" kind="variable"><name>localSimilarity</name></member>
+    <member refid="class_consult_params_1a48d859e63fc26ee92c05696e73180b9f" kind="variable"><name>indexes</name></member>
+    <member refid="class_consult_params_1a08afdf573f25bd9af48bde1f43310389" kind="function"><name>ConsultParams</name></member>
+  </compound>
+  <compound refid="class_consult_structure" kind="class"><name>ConsultStructure</name>
+    <member refid="class_consult_structure_1a337fe1e0d78aeb5e773f0bbeb5c9f5cc" kind="variable"><name>globalSimilarity</name></member>
+    <member refid="class_consult_structure_1a56fa08cf2668d390c41bb101d7fb9d40" kind="variable"><name>consultParams</name></member>
+    <member refid="class_consult_structure_1a187faa0426546ce6251903a0064cf8a1" kind="function"><name>ConsultStructure</name></member>
+  </compound>
+  <compound refid="class_equals" kind="class"><name>Equals</name>
+    <member refid="class_equals_1a9ddef758a33b1c30e85a72b3c4db21fc" kind="function"><name>Equals</name></member>
+    <member refid="class_equals_1a1b7c994cee3bf4ff55f6eaef5f31c871" kind="function"><name>GetSimilarity</name></member>
+  </compound>
+  <compound refid="class_euclidean_distance" kind="class"><name>EuclideanDistance</name>
+    <member refid="class_euclidean_distance_1aaa6a56ca6465502e28906a0c6b89318c" kind="function"><name>EuclideanDistance</name></member>
+    <member refid="class_euclidean_distance_1a1b27b1fd06df3e3defca37187634951e" kind="function"><name>GetSimilarity</name></member>
+  </compound>
+  <compound refid="class_linear_function" kind="class"><name>LinearFunction</name>
+    <member refid="class_linear_function_1a02c5184fbce966f6416f980b64944224" kind="variable"><name>minVal</name></member>
+    <member refid="class_linear_function_1a75f293f81529fa12df8f4040bbbaa2e8" kind="variable"><name>maxVal</name></member>
+    <member refid="class_linear_function_1ac8a3882badd498ea34c032d63aca3715" kind="function"><name>LinearFunction</name></member>
+    <member refid="class_linear_function_1addbfc2ff35037c40ae27c30e993e82ca" kind="function"><name>GetSimilarity</name></member>
+  </compound>
+  <compound refid="class_result" kind="class"><name>Result</name>
+    <member refid="class_result_1ae4269cd3aa3565fa41da9ea75c364705" kind="variable"><name>id</name></member>
+    <member refid="class_result_1a715e03ca8c315d38e8e6842f3e6f710e" kind="variable"><name>matchCase</name></member>
+    <member refid="class_result_1a591657b84ecc4e2b0c2f50e824a5c45a" kind="variable"><name>matchPercentage</name></member>
+    <member refid="class_result_1ac9674ce4ca5ac25deca347f06beb9b12" kind="function"><name>Result</name></member>
+  </compound>
+  <compound refid="class_search" kind="class"><name>Search</name>
+    <member refid="class_search_1a1caef9f0a4ecf2b7ac8b75dd3b0175b2" kind="function"><name>Search</name></member>
+    <member refid="class_search_1ad64beea83d7d2a74950c327ec443daf9" kind="function"><name>DoSearch</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="_abstract_feature_8cs" kind="file"><name>AbstractFeature.cs</name>
+  </compound>
+  <compound refid="_abstract_global_similarity_8cs" kind="file"><name>AbstractGlobalSimilarity.cs</name>
+  </compound>
+  <compound refid="_abstract_local_similarity_8cs" kind="file"><name>AbstractLocalSimilarity.cs</name>
+  </compound>
+  <compound refid="_case_8cs" kind="file"><name>Case.cs</name>
+  </compound>
+  <compound refid="_case_base_connector_8cs" kind="file"><name>CaseBaseConnector.cs</name>
+  </compound>
+  <compound refid="_case_feature_8cs" kind="file"><name>CaseFeature.cs</name>
+  </compound>
+  <compound refid="_c_b_r_a_p_i_8cs" kind="file"><name>CBRAPI.cs</name>
+  </compound>
+  <compound refid="_consult_params_8cs" kind="file"><name>ConsultParams.cs</name>
+  </compound>
+  <compound refid="_consult_structure_8cs" kind="file"><name>ConsultStructure.cs</name>
+  </compound>
+  <compound refid="_result_8cs" kind="file"><name>Result.cs</name>
+  </compound>
+  <compound refid="_search_8cs" kind="file"><name>Search.cs</name>
+  </compound>
+  <compound refid="_euclidean_distance_8cs" kind="file"><name>EuclideanDistance.cs</name>
+  </compound>
+  <compound refid="_equals_8cs" kind="file"><name>Equals.cs</name>
+  </compound>
+  <compound refid="_linear_function_8cs" kind="file"><name>LinearFunction.cs</name>
+  </compound>
+  <compound refid="dir_65856e56a59c4a8e7abc36dac88a0342" kind="dir"><name>AbstractClasses</name>
+  </compound>
+  <compound refid="dir_c6310732a22f63c0c2fc5595561e68f1" kind="dir"><name>Core</name>
+  </compound>
+  <compound refid="dir_bac88acda221bd2f6fef7a2fc07eace8" kind="dir"><name>SimilarityMeasures/GlobalSimilarities</name>
+  </compound>
+  <compound refid="dir_26a7f269715290903693cc92b884c26b" kind="dir"><name>SimilarityMeasures/LocalSimilarities</name>
+  </compound>
+  <compound refid="dir_8b481c105c3db9e124c03942c717605e" kind="dir"><name>SimilarityMeasures</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_search" kind="class" language="C#" prot="public">
+    <compoundname>Search</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_search_1a1caef9f0a4ecf2b7ac8b75dd3b0175b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Search.Search</definition>
+        <argsstring>()</argsstring>
+        <name>Search</name>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_search" kindref="compound">Search</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/Search.cs" line="13" column="1" bodyfile="Core/Search.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_search_1ad64beea83d7d2a74950c327ec443daf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_result" kindref="compound">Result</ref> &gt;</type>
+        <definition>List&lt;Result&gt; Search.DoSearch</definition>
+        <argsstring>(Case searchCase, CaseBaseConnector caseBaseConnector, ConsultStructure consultStructure)</argsstring>
+        <name>DoSearch</name>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>searchCase</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref></type>
+          <declname>caseBaseConnector</declname>
+        </param>
+        <param>
+          <type><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref></type>
+          <declname>consultStructure</declname>
+        </param>
+        <briefdescription>
+<para>Realiza o matching entre o caso de consulta e o caso da base de casos e retorna o resultado desse matching. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso de consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>caseBaseConnector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Conector da base de casos.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>consultStructure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estrutura de consulta que será utilizada.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista de <ref refid="class_result" kindref="compound">Result</ref> que contém o resultado de cada matching.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/Search.cs" line="25" column="1" bodyfile="Core/Search.cs" bodystart="25" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável por realizar o matching entre o caso de consulta e todos os casos da base de casos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core/Search.cs" line="8" column="1" bodyfile="Core/Search.cs" bodystart="8" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_search_1ad64beea83d7d2a74950c327ec443daf9" prot="public" virt="non-virtual"><scope>Search</scope><name>DoSearch</name></member>
+      <member refid="class_search_1a1caef9f0a4ecf2b7ac8b75dd3b0175b2" prot="public" virt="non-virtual"><scope>Search</scope><name>Search</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

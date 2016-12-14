@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_result" kind="class" language="C#" prot="public">
+    <compoundname>Result</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_result_1ae4269cd3aa3565fa41da9ea75c364705" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Result.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>Identificador do resultado. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/Result.cs" line="12" column="1" bodyfile="Core/Result.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_result_1a715e03ca8c315d38e8e6842f3e6f710e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_case" kindref="compound">Case</ref></type>
+        <definition>Case Result.matchCase</definition>
+        <argsstring></argsstring>
+        <name>matchCase</name>
+        <briefdescription>
+<para>Caso da base de casos que foi comparado. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/Result.cs" line="17" column="1" bodyfile="Core/Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_result_1a591657b84ecc4e2b0c2f50e824a5c45a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Result.matchPercentage</definition>
+        <argsstring></argsstring>
+        <name>matchPercentage</name>
+        <briefdescription>
+<para>Porcentagem de similaridade entre o caso de consulta e o caso da base de casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/Result.cs" line="22" column="1" bodyfile="Core/Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_result_1ac9674ce4ca5ac25deca347f06beb9b12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Result.Result</definition>
+        <argsstring>(int id, Case matchCase, float matchPercentage)</argsstring>
+        <name>Result</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>matchCase</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>matchPercentage</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_result" kindref="compound">Result</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do resultado.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>matchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso da base de casos que foi comparado.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>matchPercentage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Porcentagem de similaridade entre o caso de consulta e o caso da base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/Result.cs" line="31" column="1" bodyfile="Core/Result.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que representa o resultado da consulta realizada na biblioteca CBR. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="42">
+        <label>Case</label>
+        <link refid="class_case"/>
+      </node>
+      <node id="41">
+        <label>Result</label>
+        <link refid="class_result"/>
+        <childnode refid="42" relation="usage">
+          <edgelabel>matchCase</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Core/Result.cs" line="7" column="1" bodyfile="Core/Result.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_result_1ae4269cd3aa3565fa41da9ea75c364705" prot="public" virt="non-virtual"><scope>Result</scope><name>id</name></member>
+      <member refid="class_result_1a715e03ca8c315d38e8e6842f3e6f710e" prot="public" virt="non-virtual"><scope>Result</scope><name>matchCase</name></member>
+      <member refid="class_result_1a591657b84ecc4e2b0c2f50e824a5c45a" prot="public" virt="non-virtual"><scope>Result</scope><name>matchPercentage</name></member>
+      <member refid="class_result_1ac9674ce4ca5ac25deca347f06beb9b12" prot="public" virt="non-virtual"><scope>Result</scope><name>Result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

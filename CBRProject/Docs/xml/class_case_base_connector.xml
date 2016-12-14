@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_case_base_connector" kind="class" language="C#" prot="public">
+    <compoundname>CaseBaseConnector</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_case_base_connector_1afbbc563b42797bf19f8790f40e34425a" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_case" kindref="compound">Case</ref> &gt;</type>
+        <definition>List&lt;Case&gt; CaseBaseConnector.caseBase</definition>
+        <argsstring></argsstring>
+        <name>caseBase</name>
+        <briefdescription>
+<para>Lista de casos presentes na base de casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="15" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_case_base_connector_1ac50b0d8f29b6376dd81c872981907644" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CaseBaseConnector.filePath</definition>
+        <argsstring></argsstring>
+        <name>filePath</name>
+        <initializer>= Application.streamingAssetsPath + &quot;/CaseBase/&quot;</initializer>
+        <briefdescription>
+<para>Diretório em que os arquivos que representam a base de casos são armazenados. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="20" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_case_base_connector_1a2a0de26266bcfbd70986e29f6078391a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CaseBaseConnector.fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>Nome do arquivo que representa a base de casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="25" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_case_base_connector_1adb41d690fb4a06168c15b3b750c0cda2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CaseBaseConnector.CaseBaseConnector</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>CaseBaseConnector</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do arquivo que representa a base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="31" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1a6b5e35626b1b6a718bbdba83f153834b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.LoadCaseBase</definition>
+        <argsstring>()</argsstring>
+        <name>LoadCaseBase</name>
+        <briefdescription>
+<para>Método que carrega todos os casos da base de casos na memória RAM. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="40" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="40" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1a1aa00f0a3bcf25bafa6bab87ec1e455e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.CreateCaseBase</definition>
+        <argsstring>()</argsstring>
+        <name>CreateCaseBase</name>
+        <briefdescription>
+<para>Método que cria a base de casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="56" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1abca3ec961411fce4948f4ea5b40e9fb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_case" kindref="compound">Case</ref></type>
+        <definition>Case CaseBaseConnector.LoadCase</definition>
+        <argsstring>(int caseId)</argsstring>
+        <name>LoadCase</name>
+        <param>
+          <type>int</type>
+          <declname>caseId</declname>
+        </param>
+        <briefdescription>
+<para>Método que carrega um caso da base de casos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caseId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do caso a ser carregado.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="77" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="77" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1abfb6f1dae5b06827667d5f033736f7a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.AddCase</definition>
+        <argsstring>(Case newCase)</argsstring>
+        <name>AddCase</name>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>newCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que adiciona um novo caso na base de casos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Novo caso a ser adicionado na base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="95" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1a1a85907a149e2bb4e3c198936e6f59d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.RemoveCase</definition>
+        <argsstring>(int caseId)</argsstring>
+        <name>RemoveCase</name>
+        <param>
+          <type>int</type>
+          <declname>caseId</declname>
+        </param>
+        <briefdescription>
+<para>Método que remove um caso da base de casos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caseId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do caso a ser removido da base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="105" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1afc9618b6b8f22f9184e59a86086be239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.EditCase</definition>
+        <argsstring>(int caseId, Case newCase)</argsstring>
+        <name>EditCase</name>
+        <param>
+          <type>int</type>
+          <declname>caseId</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>newCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que substitui um caso da base de casos por um novo caso. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caseId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do caso a ser alterado na base de casos.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Novo caso que alterará um caso presente na base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="123" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="123" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_case_base_connector_1a9d42d88a9e90045ee622868569743476" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.SaveCaseBase</definition>
+        <argsstring>()</argsstring>
+        <name>SaveCaseBase</name>
+        <briefdescription>
+<para>Método que salva a base de casos da memória RAM no arquivo da base de casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="67" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1ae6a1c5e5c4e943e58c35134a6d7f83b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaseBaseConnector.ConvertObjectToJSON</definition>
+        <argsstring>(string filePath, string fileName, object obj)</argsstring>
+        <name>ConvertObjectToJSON</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Método que transforma um objeto em um arquivo JSON. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Diretório onde o arquivo JSON será salvo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do arquivo que será salvo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto que será transformado em um arquivo JSON.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="142" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="142" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_base_connector_1a2004b5584cac41231aa0b5d229f07cff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T CaseBaseConnector.ConvertJSONToClass&lt; T &gt;</definition>
+        <argsstring>(string filePath, string fileName)</argsstring>
+        <name>ConvertJSONToClass&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Método que transforma um arquivo JSON em uma classe. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo da classe que o arquivo JSON será transformado.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Diretório do arquivo que será lido.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do arquivo que será lido.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a classe criada a partir do arquivo JSON.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="163" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="163" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_case_base_connector_1a3525e9a7a789e705f7786fa8ddd9238e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string CaseBaseConnector.ReadToEnd</definition>
+        <argsstring>(string filePath, string fileName)</argsstring>
+        <name>ReadToEnd</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Método que lê um arquivo de texto até o fim. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Diretório do arquivo.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do arquivo.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String com os dados lidos do arquivo.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CaseBaseConnector.cs" line="187" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="187" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe resposável por fazer a conexão entre a biblioteca CBR e a base de casos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core/CaseBaseConnector.cs" line="10" column="1" bodyfile="Core/CaseBaseConnector.cs" bodystart="10" bodyend="204"/>
+    <listofallmembers>
+      <member refid="class_case_base_connector_1abfb6f1dae5b06827667d5f033736f7a0" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>AddCase</name></member>
+      <member refid="class_case_base_connector_1afbbc563b42797bf19f8790f40e34425a" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>caseBase</name></member>
+      <member refid="class_case_base_connector_1adb41d690fb4a06168c15b3b750c0cda2" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>CaseBaseConnector</name></member>
+      <member refid="class_case_base_connector_1a2004b5584cac41231aa0b5d229f07cff" prot="private" virt="non-virtual"><scope>CaseBaseConnector</scope><name>ConvertJSONToClass&lt; T &gt;</name></member>
+      <member refid="class_case_base_connector_1ae6a1c5e5c4e943e58c35134a6d7f83b9" prot="private" virt="non-virtual"><scope>CaseBaseConnector</scope><name>ConvertObjectToJSON</name></member>
+      <member refid="class_case_base_connector_1a1aa00f0a3bcf25bafa6bab87ec1e455e" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>CreateCaseBase</name></member>
+      <member refid="class_case_base_connector_1afc9618b6b8f22f9184e59a86086be239" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>EditCase</name></member>
+      <member refid="class_case_base_connector_1a2a0de26266bcfbd70986e29f6078391a" prot="private" virt="non-virtual"><scope>CaseBaseConnector</scope><name>fileName</name></member>
+      <member refid="class_case_base_connector_1ac50b0d8f29b6376dd81c872981907644" prot="private" virt="non-virtual"><scope>CaseBaseConnector</scope><name>filePath</name></member>
+      <member refid="class_case_base_connector_1abca3ec961411fce4948f4ea5b40e9fb6" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>LoadCase</name></member>
+      <member refid="class_case_base_connector_1a6b5e35626b1b6a718bbdba83f153834b" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>LoadCaseBase</name></member>
+      <member refid="class_case_base_connector_1a3525e9a7a789e705f7786fa8ddd9238e" prot="private" virt="non-virtual"><scope>CaseBaseConnector</scope><name>ReadToEnd</name></member>
+      <member refid="class_case_base_connector_1a1a85907a149e2bb4e3c198936e6f59d3" prot="public" virt="non-virtual"><scope>CaseBaseConnector</scope><name>RemoveCase</name></member>
+      <member refid="class_case_base_connector_1a9d42d88a9e90045ee622868569743476" prot="private" virt="non-virtual"><scope>CaseBaseConnector</scope><name>SaveCaseBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

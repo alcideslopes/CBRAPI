@@ -1,0 +1,65 @@
+.TH "AbstractLocalSimilarity" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AbstractLocalSimilarity \- Classe abstrata que representa uma medida de similaridade local que será implementada na biblioteca CBR\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBEquals\fP, and \fBLinearFunction\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAbstractLocalSimilarity\fP ()"
+.br
+.RI "Construtor da classe \fBAbstractLocalSimilarity\fP\&. "
+.ti -1c
+.RI "abstract float \fBGetSimilarity\fP (\fBConsultParams\fP consultParams, \fBCase\fP searchCase, \fBCase\fP retrieveCase)"
+.br
+.RI "Método abstrato que deve ser implementado por todas as classes que extenderem a classe \fBAbstractLocalSimilarity\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe abstrata que representa uma medida de similaridade local que será implementada na biblioteca CBR\&. 
+
+
+.PP
+Definition at line 6 of file AbstractLocalSimilarity\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AbstractLocalSimilarity\&.AbstractLocalSimilarity ()"
+
+.PP
+Construtor da classe \fBAbstractLocalSimilarity\fP\&. 
+.PP
+Definition at line 11 of file AbstractLocalSimilarity\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract float AbstractLocalSimilarity\&.GetSimilarity (\fBConsultParams\fP consultParams, \fBCase\fP searchCase, \fBCase\fP retrieveCase)\fC [pure virtual]\fP"
+
+.PP
+Método abstrato que deve ser implementado por todas as classes que extenderem a classe \fBAbstractLocalSimilarity\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIconsultParams\fP Parâmetros da consulta\&.
+.br
+\fIsearchCase\fP Caso utilizado como consulta\&.
+.br
+\fIretrieveCase\fP Caso recuperado da base de casos\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Implemented in \fBLinearFunction\fP, and \fBEquals\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

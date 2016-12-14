@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_consult_params" kind="class" language="C#" prot="public">
+    <compoundname>ConsultParams</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_consult_params_1aedab07a8d28bff47cbc569778533493e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ConsultParams.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <briefdescription>
+<para>Peso da consulta na análise de similaridade. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultParams.cs" line="13" column="1" bodyfile="Core/ConsultParams.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_consult_params_1a1910c45b23c7c0654518ba528d3e5a69" prot="public" static="no" mutable="no">
+        <type><ref refid="class_abstract_local_similarity" kindref="compound">AbstractLocalSimilarity</ref></type>
+        <definition>AbstractLocalSimilarity ConsultParams.localSimilarity</definition>
+        <argsstring></argsstring>
+        <name>localSimilarity</name>
+        <briefdescription>
+<para>Função de similaridade local que será utilizada na consulta. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultParams.cs" line="18" column="1" bodyfile="Core/ConsultParams.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_consult_params_1a48d859e63fc26ee92c05696e73180b9f" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ConsultParams.indexes</definition>
+        <argsstring></argsstring>
+        <name>indexes</name>
+        <briefdescription>
+<para>Índice dos atributos utilizados na consulta. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultParams.cs" line="23" column="1" bodyfile="Core/ConsultParams.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_consult_params_1a08afdf573f25bd9af48bde1f43310389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ConsultParams.ConsultParams</definition>
+        <argsstring>(List&lt; int &gt; indexes, float weight, AbstractLocalSimilarity localSimilarity)</argsstring>
+        <name>ConsultParams</name>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>indexes</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type><ref refid="class_abstract_local_similarity" kindref="compound">AbstractLocalSimilarity</ref></type>
+          <declname>localSimilarity</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_consult_params" kindref="compound">ConsultParams</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>indexes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice dos atributos utilizados na consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>weight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Peso da consulta na análise de similaridade.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localSimilarity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Função de similaridade local que será utilizada na consulta.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ConsultParams.cs" line="31" column="1" bodyfile="Core/ConsultParams.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que contém os parâmetros da consulta que serão utilizados para a análise de similaridade entre dois casos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>AbstractLocalSimilarity</label>
+        <link refid="class_abstract_local_similarity"/>
+      </node>
+      <node id="22">
+        <label>ConsultParams</label>
+        <link refid="class_consult_params"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>localSimilarity</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Core/ConsultParams.cs" line="8" column="1" bodyfile="Core/ConsultParams.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_consult_params_1a08afdf573f25bd9af48bde1f43310389" prot="public" virt="non-virtual"><scope>ConsultParams</scope><name>ConsultParams</name></member>
+      <member refid="class_consult_params_1a48d859e63fc26ee92c05696e73180b9f" prot="public" virt="non-virtual"><scope>ConsultParams</scope><name>indexes</name></member>
+      <member refid="class_consult_params_1a1910c45b23c7c0654518ba528d3e5a69" prot="public" virt="non-virtual"><scope>ConsultParams</scope><name>localSimilarity</name></member>
+      <member refid="class_consult_params_1aedab07a8d28bff47cbc569778533493e" prot="public" virt="non-virtual"><scope>ConsultParams</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

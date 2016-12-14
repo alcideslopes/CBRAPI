@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_8b481c105c3db9e124c03942c717605e" kind="dir">
+    <compoundname>SimilarityMeasures</compoundname>
+    <innerdir refid="dir_bac88acda221bd2f6fef7a2fc07eace8">SimilarityMeasures/GlobalSimilarities</innerdir>
+    <innerdir refid="dir_26a7f269715290903693cc92b884c26b">SimilarityMeasures/LocalSimilarities</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SimilarityMeasures/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+.TH "Equals" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Equals \- Classe utilizada como função de similaridade local na qual compara se dois atributos são iguais\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAbstractLocalSimilarity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEquals\fP ()"
+.br
+.RI "Construtor da classe \fBEquals\fP\&. "
+.ti -1c
+.RI "override float \fBGetSimilarity\fP (\fBConsultParams\fP consultParams, \fBCase\fP searchCase, \fBCase\fP retrieveCase)"
+.br
+.RI "Método que retorna o valor de similaridade entre duas strings\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe utilizada como função de similaridade local na qual compara se dois atributos são iguais\&. 
+
+
+.PP
+Definition at line 6 of file Equals\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Equals\&.Equals ()"
+
+.PP
+Construtor da classe \fBEquals\fP\&. 
+.PP
+Definition at line 12 of file Equals\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "override float Equals\&.GetSimilarity (\fBConsultParams\fP consultParams, \fBCase\fP searchCase, \fBCase\fP retrieveCase)\fC [virtual]\fP"
+
+.PP
+Método que retorna o valor de similaridade entre duas strings\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIconsultParams\fP Parâmetros da consulta\&.
+.br
+\fIsearchCase\fP Caso utilizado como consulta\&.
+.br
+\fIretriveCase\fP Caso recuperado da base de casos\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Valor de similaridade entre duas strings\&.
+.RE
+.PP
+
+.PP
+Implements \fBAbstractLocalSimilarity\fP\&.
+.PP
+Definition at line 24 of file Equals\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

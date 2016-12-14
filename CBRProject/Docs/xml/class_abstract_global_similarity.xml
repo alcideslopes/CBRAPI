@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_abstract_global_similarity" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>AbstractGlobalSimilarity</compoundname>
+    <derivedcompoundref refid="class_euclidean_distance" prot="public" virt="non-virtual">EuclideanDistance</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" prot="public" static="no" mutable="no">
+        <type><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref></type>
+        <definition>ConsultStructure AbstractGlobalSimilarity.consultStructure</definition>
+        <argsstring></argsstring>
+        <name>consultStructure</name>
+        <briefdescription>
+<para>Estrutura da consulta que será informada por cada classe que extender a classe <ref refid="class_abstract_global_similarity" kindref="compound">AbstractGlobalSimilarity</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractClasses/AbstractGlobalSimilarity.cs" line="10" column="1" bodyfile="AbstractClasses/AbstractGlobalSimilarity.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_abstract_global_similarity_1ac13f827a8680ef4b6ee0d40911969f16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AbstractGlobalSimilarity.AbstractGlobalSimilarity</definition>
+        <argsstring>(ConsultStructure consultStructure)</argsstring>
+        <name>AbstractGlobalSimilarity</name>
+        <param>
+          <type><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref></type>
+          <declname>consultStructure</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_abstract_global_similarity" kindref="compound">AbstractGlobalSimilarity</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>consultStructure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estrutura da consulta.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractClasses/AbstractGlobalSimilarity.cs" line="16" column="1" bodyfile="AbstractClasses/AbstractGlobalSimilarity.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_abstract_global_similarity_1a4b97677ae2f5a0bdee41019b40b45114" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract float</type>
+        <definition>abstract float AbstractGlobalSimilarity.GetSimilarity</definition>
+        <argsstring>(Case searchCase, Case retrieveCase)</argsstring>
+        <name>GetSimilarity</name>
+        <reimplementedby refid="class_euclidean_distance_1a1b27b1fd06df3e3defca37187634951e">GetSimilarity</reimplementedby>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>searchCase</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>retrieveCase</declname>
+        </param>
+        <briefdescription>
+<para>Método abstrato que deve ser implementado por todas as classes que extenderem a classe <ref refid="class_abstract_global_similarity" kindref="compound">AbstractGlobalSimilarity</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso utilizado como consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>retrieveCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso recuperado da base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Valor de similardade entre os casos c1 e c2.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractClasses/AbstractGlobalSimilarity.cs" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe abstrata que representa uma medida de similaridade global que será implementada na biblioteca CBR. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>EuclideanDistance</label>
+        <link refid="class_euclidean_distance"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AbstractGlobalSimilarity</label>
+        <link refid="class_abstract_global_similarity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>ConsultStructure</label>
+        <link refid="class_consult_structure"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>globalSimilarity</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AbstractGlobalSimilarity</label>
+        <link refid="class_abstract_global_similarity"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>consultStructure</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="AbstractClasses/AbstractGlobalSimilarity.cs" line="6" column="1" bodyfile="AbstractClasses/AbstractGlobalSimilarity.cs" bodystart="5" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_abstract_global_similarity_1ac13f827a8680ef4b6ee0d40911969f16" prot="public" virt="non-virtual"><scope>AbstractGlobalSimilarity</scope><name>AbstractGlobalSimilarity</name></member>
+      <member refid="class_abstract_global_similarity_1a471ea41af416fd702d48f3b143416e66" prot="public" virt="non-virtual"><scope>AbstractGlobalSimilarity</scope><name>consultStructure</name></member>
+      <member refid="class_abstract_global_similarity_1a4b97677ae2f5a0bdee41019b40b45114" prot="public" virt="pure-virtual"><scope>AbstractGlobalSimilarity</scope><name>GetSimilarity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

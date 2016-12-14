@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_c6310732a22f63c0c2fc5595561e68f1" kind="dir">
+    <compoundname>Core</compoundname>
+    <innerfile refid="_case_8cs">Case.cs</innerfile>
+    <innerfile refid="_case_base_connector_8cs">CaseBaseConnector.cs</innerfile>
+    <innerfile refid="_case_feature_8cs">CaseFeature.cs</innerfile>
+    <innerfile refid="_c_b_r_a_p_i_8cs">CBRAPI.cs</innerfile>
+    <innerfile refid="_consult_params_8cs">ConsultParams.cs</innerfile>
+    <innerfile refid="_consult_structure_8cs">ConsultStructure.cs</innerfile>
+    <innerfile refid="_result_8cs">Result.cs</innerfile>
+    <innerfile refid="_search_8cs">Search.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core/"/>
+  </compounddef>
+</doxygen>

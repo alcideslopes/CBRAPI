@@ -1,0 +1,64 @@
+.TH "Search" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Search \- Classe responsável por realizar o matching entre o caso de consulta e todos os casos da base de casos\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSearch\fP ()"
+.br
+.RI "Construtor da classe \fBSearch\fP\&. "
+.ti -1c
+.RI "List< \fBResult\fP > \fBDoSearch\fP (\fBCase\fP searchCase, \fBCaseBaseConnector\fP caseBaseConnector, \fBConsultStructure\fP consultStructure)"
+.br
+.RI "Realiza o matching entre o caso de consulta e o caso da base de casos e retorna o resultado desse matching\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe responsável por realizar o matching entre o caso de consulta e todos os casos da base de casos\&. 
+
+
+.PP
+Definition at line 8 of file Search\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Search\&.Search ()"
+
+.PP
+Construtor da classe \fBSearch\fP\&. 
+.PP
+Definition at line 13 of file Search\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "List<\fBResult\fP> Search\&.DoSearch (\fBCase\fP searchCase, \fBCaseBaseConnector\fP caseBaseConnector, \fBConsultStructure\fP consultStructure)"
+
+.PP
+Realiza o matching entre o caso de consulta e o caso da base de casos e retorna o resultado desse matching\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchCase\fP Caso de consulta\&.
+.br
+\fIcaseBaseConnector\fP Conector da base de casos\&.
+.br
+\fIconsultStructure\fP Estrutura de consulta que será utilizada\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Lista de \fBResult\fP que contém o resultado de cada matching\&.
+.RE
+.PP
+
+.PP
+Definition at line 25 of file Search\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

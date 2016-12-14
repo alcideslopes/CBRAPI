@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_equals" kind="class" language="C#" prot="public">
+    <compoundname>Equals</compoundname>
+    <basecompoundref refid="class_abstract_local_similarity" prot="public" virt="non-virtual">AbstractLocalSimilarity</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_equals_1a9ddef758a33b1c30e85a72b3c4db21fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Equals.Equals</definition>
+        <argsstring>()</argsstring>
+        <name>Equals</name>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_equals" kindref="compound">Equals</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/LocalSimilarities/Equals.cs" line="12" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/Equals.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_equals_1a1b7c994cee3bf4ff55f6eaef5f31c871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float Equals.GetSimilarity</definition>
+        <argsstring>(ConsultParams consultParams, Case searchCase, Case retrieveCase)</argsstring>
+        <name>GetSimilarity</name>
+        <reimplements refid="class_abstract_local_similarity_1a6c51b1fe09e99d509da0d3634225ca36">GetSimilarity</reimplements>
+        <param>
+          <type><ref refid="class_consult_params" kindref="compound">ConsultParams</ref></type>
+          <declname>consultParams</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>searchCase</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>retrieveCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que retorna o valor de similaridade entre duas strings. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>consultParams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parâmetros da consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>searchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso utilizado como consulta.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>retriveCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso recuperado da base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Valor de similaridade entre duas strings.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SimilarityMeasures/LocalSimilarities/Equals.cs" line="24" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/Equals.cs" bodystart="24" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe utilizada como função de similaridade local na qual compara se dois atributos são iguais. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>AbstractLocalSimilarity</label>
+        <link refid="class_abstract_local_similarity"/>
+      </node>
+      <node id="27">
+        <label>Equals</label>
+        <link refid="class_equals"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>AbstractLocalSimilarity</label>
+        <link refid="class_abstract_local_similarity"/>
+      </node>
+      <node id="29">
+        <label>Equals</label>
+        <link refid="class_equals"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SimilarityMeasures/LocalSimilarities/Equals.cs" line="7" column="1" bodyfile="SimilarityMeasures/LocalSimilarities/Equals.cs" bodystart="6" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_abstract_local_similarity_1a211b136bd5cd1525f3e4637868252696" prot="public" virt="non-virtual"><scope>Equals</scope><name>AbstractLocalSimilarity</name></member>
+      <member refid="class_equals_1a9ddef758a33b1c30e85a72b3c4db21fc" prot="public" virt="non-virtual"><scope>Equals</scope><name>Equals</name></member>
+      <member refid="class_equals_1a1b7c994cee3bf4ff55f6eaef5f31c871" prot="public" virt="virtual"><scope>Equals</scope><name>GetSimilarity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

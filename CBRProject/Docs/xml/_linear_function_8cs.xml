@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_linear_function_8cs" kind="file" language="C#">
+    <compoundname>LinearFunction.cs</compoundname>
+    <innerclass refid="class_linear_function" prot="public">LinearFunction</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_linear_function" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_linear_function" kindref="compound">LinearFunction</ref><sp/>:<sp/><ref refid="class_abstract_local_similarity" kindref="compound">AbstractLocalSimilarity</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minVal;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxVal;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_linear_function_1ac8a3882badd498ea34c032d63aca3715" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_linear_function_1ac8a3882badd498ea34c032d63aca3715" kindref="member">LinearFunction</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minVal,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxVal)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.minVal<sp/>=<sp/>minVal;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.maxVal<sp/>=<sp/>maxVal;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_linear_function_1addbfc2ff35037c40ae27c30e993e82ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_linear_function_1addbfc2ff35037c40ae27c30e993e82ca" kindref="member">GetSimilarity</ref>(<ref refid="class_consult_params" kindref="compound">ConsultParams</ref><sp/>consultParams,<sp/><ref refid="class_case" kindref="compound">Case</ref><sp/>searchCase,<sp/><ref refid="class_case" kindref="compound">Case</ref><sp/>retriveCase)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>num1<sp/>=<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">.Parse(searchCase.<ref refid="class_case_1a12be58e57891febe52b147a9266e54cb" kindref="member">caseDescription</ref>[consultParams.<ref refid="class_consult_params_1a48d859e63fc26ee92c05696e73180b9f" kindref="member">indexes</ref>[0]].value);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>num2<sp/>=<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">.Parse(retriveCase.<ref refid="class_case_1a12be58e57891febe52b147a9266e54cb" kindref="member">caseDescription</ref>[consultParams.<ref refid="class_consult_params_1a48d859e63fc26ee92c05696e73180b9f" kindref="member">indexes</ref>[0]].value);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1f<sp/>-<sp/>(Math.Abs(Convert.ToSingle(num1)<sp/>-<sp/>Convert.ToSingle(num2))<sp/>/<sp/>(maxVal<sp/>-<sp/>minVal));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="SimilarityMeasures/LocalSimilarities/LinearFunction.cs"/>
+  </compounddef>
+</doxygen>

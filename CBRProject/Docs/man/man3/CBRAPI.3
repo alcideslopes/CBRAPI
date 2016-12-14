@@ -1,0 +1,129 @@
+.TH "CBRAPI" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CBRAPI \- Classe que deve ser instanciada para ser possível utilizar a biblioteca CBR\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCBRAPI\fP ()"
+.br
+.RI "Construtor da classe \fBCBRAPI\fP\&. "
+.ti -1c
+.RI "\fBCBRAPI\fP (string fileName)"
+.br
+.RI "Construtor da classe \fBCBRAPI\fP\&. "
+.ti -1c
+.RI "void \fBAddCase\fP (\fBCase\fP newCase)"
+.br
+.RI "Método que passa um novo caso para a classe \fBCaseBaseConnector\fP adicionar na base de casos\&. "
+.ti -1c
+.RI "void \fBRemoveCase\fP (int caseID)"
+.br
+.RI "Método que informa a classe \fBCaseBaseConnector\fP qual caso deve ser removido\&. "
+.ti -1c
+.RI "void \fBEditCase\fP (int caseID, \fBCase\fP newCase)"
+.br
+.RI "Método que informa a classe \fBCaseBaseConnector\fP qual caso deve ser editado\&. "
+.ti -1c
+.RI "List< \fBResult\fP > \fBRetrieve\fP (\fBCase\fP searchCase, \fBConsultStructure\fP consultStructure)"
+.br
+.RI "Realiza e etapa de recuperação do ciclo de CBR\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe que deve ser instanciada para ser possível utilizar a biblioteca CBR\&. 
+
+
+.PP
+Definition at line 6 of file CBRAPI\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "CBRAPI\&.CBRAPI ()"
+
+.PP
+Construtor da classe \fBCBRAPI\fP\&. 
+.PP
+Definition at line 17 of file CBRAPI\&.cs\&.
+.SS "CBRAPI\&.CBRAPI (string fileName)"
+
+.PP
+Construtor da classe \fBCBRAPI\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfileName\fP Nome do arquivo que represeta a base de casos\&.
+.RE
+.PP
+
+.PP
+Definition at line 28 of file CBRAPI\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void CBRAPI\&.AddCase (\fBCase\fP newCase)"
+
+.PP
+Método que passa um novo caso para a classe \fBCaseBaseConnector\fP adicionar na base de casos\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewCase\fP Novo caso\&.
+.RE
+.PP
+
+.PP
+Definition at line 39 of file CBRAPI\&.cs\&.
+.SS "void CBRAPI\&.EditCase (int caseID, \fBCase\fP newCase)"
+
+.PP
+Método que informa a classe \fBCaseBaseConnector\fP qual caso deve ser editado\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcaseID\fP Identificador do caso e ser editado\&.
+.br
+\fInewCase\fP Novo caso que irá substituir um já existente\&.
+.RE
+.PP
+
+.PP
+Definition at line 58 of file CBRAPI\&.cs\&.
+.SS "void CBRAPI\&.RemoveCase (int caseID)"
+
+.PP
+Método que informa a classe \fBCaseBaseConnector\fP qual caso deve ser removido\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcaseID\fP Identificador do caso a ser removido\&.
+.RE
+.PP
+
+.PP
+Definition at line 48 of file CBRAPI\&.cs\&.
+.SS "List<\fBResult\fP> CBRAPI\&.Retrieve (\fBCase\fP searchCase, \fBConsultStructure\fP consultStructure)"
+
+.PP
+Realiza e etapa de recuperação do ciclo de CBR\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchCase\fP Caso de consulta\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 68 of file CBRAPI\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.

@@ -1,0 +1,91 @@
+\hypertarget{class_linear_function}{}\section{Linear\+Function Class Reference}
+\label{class_linear_function}\index{Linear\+Function@{Linear\+Function}}
+
+
+Classe que utilizar uma função linear para calcular a similaridade local entre dois atributos do caso.  
+
+
+Inheritance diagram for Linear\+Function\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_linear_function}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_linear_function_ac8a3882badd498ea34c032d63aca3715}{Linear\+Function} (float min\+Val, float max\+Val)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \hyperlink{class_linear_function}{Linear\+Function}. \end{DoxyCompactList}\item 
+override float \hyperlink{class_linear_function_addbfc2ff35037c40ae27c30e993e82ca}{Get\+Similarity} (\hyperlink{class_consult_params}{Consult\+Params} consult\+Params, \hyperlink{class_case}{Case} search\+Case, \hyperlink{class_case}{Case} retrive\+Case)
+\begin{DoxyCompactList}\small\item\em Método que retorna o valor de similaridade entre dois números. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe que utilizar uma função linear para calcular a similaridade local entre dois atributos do caso. 
+
+
+
+Definition at line 7 of file Linear\+Function.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_linear_function_ac8a3882badd498ea34c032d63aca3715}{}\label{class_linear_function_ac8a3882badd498ea34c032d63aca3715} 
+\index{Linear\+Function@{Linear\+Function}!Linear\+Function@{Linear\+Function}}
+\index{Linear\+Function@{Linear\+Function}!Linear\+Function@{Linear\+Function}}
+\subsubsection{\texorpdfstring{Linear\+Function()}{LinearFunction()}}
+{\footnotesize\ttfamily Linear\+Function.\+Linear\+Function (\begin{DoxyParamCaption}\item[{float}]{min\+Val,  }\item[{float}]{max\+Val }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \hyperlink{class_linear_function}{Linear\+Function}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em min\+Val} & Valor mínimo do domínio do atributo.\\
+\hline
+{\em max\+Val} & Valor máximo do domínio do atributo.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file Linear\+Function.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_linear_function_addbfc2ff35037c40ae27c30e993e82ca}{}\label{class_linear_function_addbfc2ff35037c40ae27c30e993e82ca} 
+\index{Linear\+Function@{Linear\+Function}!Get\+Similarity@{Get\+Similarity}}
+\index{Get\+Similarity@{Get\+Similarity}!Linear\+Function@{Linear\+Function}}
+\subsubsection{\texorpdfstring{Get\+Similarity()}{GetSimilarity()}}
+{\footnotesize\ttfamily override float Linear\+Function.\+Get\+Similarity (\begin{DoxyParamCaption}\item[{\hyperlink{class_consult_params}{Consult\+Params}}]{consult\+Params,  }\item[{\hyperlink{class_case}{Case}}]{search\+Case,  }\item[{\hyperlink{class_case}{Case}}]{retrive\+Case }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Método que retorna o valor de similaridade entre dois números. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em consult\+Params} & Parâmetros da consulta.\\
+\hline
+{\em search\+Case} & Caso utilizado como consulta.\\
+\hline
+{\em retrive\+Case} & Caso recuperado da base de casos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Valor de similaridade entre dois números.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abstract_local_similarity_a6c51b1fe09e99d509da0d3634225ca36}{Abstract\+Local\+Similarity}.
+
+
+
+Definition at line 37 of file Linear\+Function.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Similarity\+Measures/\+Local\+Similarities/\hyperlink{_linear_function_8cs}{Linear\+Function.\+cs}\end{DoxyCompactItemize}

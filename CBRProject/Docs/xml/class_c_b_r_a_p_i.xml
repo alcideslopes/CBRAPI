@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_c_b_r_a_p_i" kind="class" language="C#" prot="public">
+    <compoundname>CBRAPI</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_b_r_a_p_i_1ac3598c12a5be725adf5f85370733b257" prot="private" static="no" mutable="no">
+        <type><ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref></type>
+        <definition>CaseBaseConnector CBRAPI.caseBaseConnector</definition>
+        <argsstring></argsstring>
+        <name>caseBaseConnector</name>
+        <briefdescription>
+<para>Responsável por fazer a conexão entre a aplicação e a base de casos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="11" column="1" bodyfile="Core/CBRAPI.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_b_r_a_p_i_1a6e4d8b523865ebbc550a50ff1785231b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CBRAPI.CBRAPI</definition>
+        <argsstring>()</argsstring>
+        <name>CBRAPI</name>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_c_b_r_a_p_i" kindref="compound">CBRAPI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="17" column="1" bodyfile="Core/CBRAPI.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_b_r_a_p_i_1a9e521eefe067de857bcc86990d64256e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CBRAPI.CBRAPI</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>CBRAPI</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_c_b_r_a_p_i" kindref="compound">CBRAPI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do arquivo que represeta a base de casos.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="28" column="1" bodyfile="Core/CBRAPI.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_b_r_a_p_i_1a887ddacca4fd9f79d20f8b392b3e8a8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CBRAPI.AddCase</definition>
+        <argsstring>(Case newCase)</argsstring>
+        <name>AddCase</name>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>newCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que passa um novo caso para a classe <ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref> adicionar na base de casos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Novo caso.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="39" column="1" bodyfile="Core/CBRAPI.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_b_r_a_p_i_1a592d54dfb86d74154ed0e74dc3aa6f73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CBRAPI.RemoveCase</definition>
+        <argsstring>(int caseID)</argsstring>
+        <name>RemoveCase</name>
+        <param>
+          <type>int</type>
+          <declname>caseID</declname>
+        </param>
+        <briefdescription>
+<para>Método que informa a classe <ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref> qual caso deve ser removido. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caseID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do caso a ser removido.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="48" column="1" bodyfile="Core/CBRAPI.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_b_r_a_p_i_1a80d48f14d29ee6c2ac4bacff19ea9c0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CBRAPI.EditCase</definition>
+        <argsstring>(int caseID, Case newCase)</argsstring>
+        <name>EditCase</name>
+        <param>
+          <type>int</type>
+          <declname>caseID</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>newCase</declname>
+        </param>
+        <briefdescription>
+<para>Método que informa a classe <ref refid="class_case_base_connector" kindref="compound">CaseBaseConnector</ref> qual caso deve ser editado. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caseID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do caso e ser editado.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Novo caso que irá substituir um já existente.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="58" column="1" bodyfile="Core/CBRAPI.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_b_r_a_p_i_1af1992aae5101968f2a851f1ac1c044d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_result" kindref="compound">Result</ref> &gt;</type>
+        <definition>List&lt;Result&gt; CBRAPI.Retrieve</definition>
+        <argsstring>(Case searchCase, ConsultStructure consultStructure)</argsstring>
+        <name>Retrieve</name>
+        <param>
+          <type><ref refid="class_case" kindref="compound">Case</ref></type>
+          <declname>searchCase</declname>
+        </param>
+        <param>
+          <type><ref refid="class_consult_structure" kindref="compound">ConsultStructure</ref></type>
+          <declname>consultStructure</declname>
+        </param>
+        <briefdescription>
+<para>Realiza e etapa de recuperação do ciclo de CBR. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchCase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caso de consulta.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/CBRAPI.cs" line="68" column="1" bodyfile="Core/CBRAPI.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe que deve ser instanciada para ser possível utilizar a biblioteca CBR. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core/CBRAPI.cs" line="7" column="1" bodyfile="Core/CBRAPI.cs" bodystart="6" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_c_b_r_a_p_i_1a887ddacca4fd9f79d20f8b392b3e8a8e" prot="public" virt="non-virtual"><scope>CBRAPI</scope><name>AddCase</name></member>
+      <member refid="class_c_b_r_a_p_i_1ac3598c12a5be725adf5f85370733b257" prot="private" virt="non-virtual"><scope>CBRAPI</scope><name>caseBaseConnector</name></member>
+      <member refid="class_c_b_r_a_p_i_1a6e4d8b523865ebbc550a50ff1785231b" prot="public" virt="non-virtual"><scope>CBRAPI</scope><name>CBRAPI</name></member>
+      <member refid="class_c_b_r_a_p_i_1a9e521eefe067de857bcc86990d64256e" prot="public" virt="non-virtual"><scope>CBRAPI</scope><name>CBRAPI</name></member>
+      <member refid="class_c_b_r_a_p_i_1a80d48f14d29ee6c2ac4bacff19ea9c0c" prot="public" virt="non-virtual"><scope>CBRAPI</scope><name>EditCase</name></member>
+      <member refid="class_c_b_r_a_p_i_1a592d54dfb86d74154ed0e74dc3aa6f73" prot="public" virt="non-virtual"><scope>CBRAPI</scope><name>RemoveCase</name></member>
+      <member refid="class_c_b_r_a_p_i_1af1992aae5101968f2a851f1ac1c044d7" prot="public" virt="non-virtual"><scope>CBRAPI</scope><name>Retrieve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

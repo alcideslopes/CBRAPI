@@ -1,0 +1,156 @@
+\hypertarget{class_c_b_r_a_p_i}{}\section{C\+B\+R\+A\+PI Class Reference}
+\label{class_c_b_r_a_p_i}\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+
+
+Classe que deve ser instanciada para ser possível utilizar a biblioteca C\+BR.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_b_r_a_p_i_a6e4d8b523865ebbc550a50ff1785231b}{C\+B\+R\+A\+PI} ()
+\begin{DoxyCompactList}\small\item\em Construtor da classe \hyperlink{class_c_b_r_a_p_i}{C\+B\+R\+A\+PI}. \end{DoxyCompactList}\item 
+\hyperlink{class_c_b_r_a_p_i_a9e521eefe067de857bcc86990d64256e}{C\+B\+R\+A\+PI} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \hyperlink{class_c_b_r_a_p_i}{C\+B\+R\+A\+PI}. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_b_r_a_p_i_a887ddacca4fd9f79d20f8b392b3e8a8e}{Add\+Case} (\hyperlink{class_case}{Case} new\+Case)
+\begin{DoxyCompactList}\small\item\em Método que passa um novo caso para a classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector} adicionar na base de casos. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_b_r_a_p_i_a592d54dfb86d74154ed0e74dc3aa6f73}{Remove\+Case} (int case\+ID)
+\begin{DoxyCompactList}\small\item\em Método que informa a classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector} qual caso deve ser removido. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_b_r_a_p_i_a80d48f14d29ee6c2ac4bacff19ea9c0c}{Edit\+Case} (int case\+ID, \hyperlink{class_case}{Case} new\+Case)
+\begin{DoxyCompactList}\small\item\em Método que informa a classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector} qual caso deve ser editado. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_result}{Result} $>$ \hyperlink{class_c_b_r_a_p_i_af1992aae5101968f2a851f1ac1c044d7}{Retrieve} (\hyperlink{class_case}{Case} search\+Case, \hyperlink{class_consult_structure}{Consult\+Structure} consult\+Structure)
+\begin{DoxyCompactList}\small\item\em Realiza e etapa de recuperação do ciclo de C\+BR. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe que deve ser instanciada para ser possível utilizar a biblioteca C\+BR. 
+
+
+
+Definition at line 6 of file C\+B\+R\+A\+P\+I.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_b_r_a_p_i_a6e4d8b523865ebbc550a50ff1785231b}{}\label{class_c_b_r_a_p_i_a6e4d8b523865ebbc550a50ff1785231b} 
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\subsubsection{\texorpdfstring{C\+B\+R\+A\+P\+I()}{CBRAPI()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+B\+R\+A\+P\+I.\+C\+B\+R\+A\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \hyperlink{class_c_b_r_a_p_i}{C\+B\+R\+A\+PI}. 
+
+
+
+Definition at line 17 of file C\+B\+R\+A\+P\+I.\+cs.
+
+\hypertarget{class_c_b_r_a_p_i_a9e521eefe067de857bcc86990d64256e}{}\label{class_c_b_r_a_p_i_a9e521eefe067de857bcc86990d64256e} 
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\subsubsection{\texorpdfstring{C\+B\+R\+A\+P\+I()}{CBRAPI()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+B\+R\+A\+P\+I.\+C\+B\+R\+A\+PI (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \hyperlink{class_c_b_r_a_p_i}{C\+B\+R\+A\+PI}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do arquivo que represeta a base de casos.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file C\+B\+R\+A\+P\+I.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_b_r_a_p_i_a887ddacca4fd9f79d20f8b392b3e8a8e}{}\label{class_c_b_r_a_p_i_a887ddacca4fd9f79d20f8b392b3e8a8e} 
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!Add\+Case@{Add\+Case}}
+\index{Add\+Case@{Add\+Case}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\subsubsection{\texorpdfstring{Add\+Case()}{AddCase()}}
+{\footnotesize\ttfamily void C\+B\+R\+A\+P\+I.\+Add\+Case (\begin{DoxyParamCaption}\item[{\hyperlink{class_case}{Case}}]{new\+Case }\end{DoxyParamCaption})}
+
+
+
+Método que passa um novo caso para a classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector} adicionar na base de casos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Case} & Novo caso.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 39 of file C\+B\+R\+A\+P\+I.\+cs.
+
+\hypertarget{class_c_b_r_a_p_i_a80d48f14d29ee6c2ac4bacff19ea9c0c}{}\label{class_c_b_r_a_p_i_a80d48f14d29ee6c2ac4bacff19ea9c0c} 
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!Edit\+Case@{Edit\+Case}}
+\index{Edit\+Case@{Edit\+Case}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\subsubsection{\texorpdfstring{Edit\+Case()}{EditCase()}}
+{\footnotesize\ttfamily void C\+B\+R\+A\+P\+I.\+Edit\+Case (\begin{DoxyParamCaption}\item[{int}]{case\+ID,  }\item[{\hyperlink{class_case}{Case}}]{new\+Case }\end{DoxyParamCaption})}
+
+
+
+Método que informa a classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector} qual caso deve ser editado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em case\+ID} & Identificador do caso e ser editado.\\
+\hline
+{\em new\+Case} & Novo caso que irá substituir um já existente.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 58 of file C\+B\+R\+A\+P\+I.\+cs.
+
+\hypertarget{class_c_b_r_a_p_i_a592d54dfb86d74154ed0e74dc3aa6f73}{}\label{class_c_b_r_a_p_i_a592d54dfb86d74154ed0e74dc3aa6f73} 
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!Remove\+Case@{Remove\+Case}}
+\index{Remove\+Case@{Remove\+Case}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\subsubsection{\texorpdfstring{Remove\+Case()}{RemoveCase()}}
+{\footnotesize\ttfamily void C\+B\+R\+A\+P\+I.\+Remove\+Case (\begin{DoxyParamCaption}\item[{int}]{case\+ID }\end{DoxyParamCaption})}
+
+
+
+Método que informa a classe \hyperlink{class_case_base_connector}{Case\+Base\+Connector} qual caso deve ser removido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em case\+ID} & Identificador do caso a ser removido.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 48 of file C\+B\+R\+A\+P\+I.\+cs.
+
+\hypertarget{class_c_b_r_a_p_i_af1992aae5101968f2a851f1ac1c044d7}{}\label{class_c_b_r_a_p_i_af1992aae5101968f2a851f1ac1c044d7} 
+\index{C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}!Retrieve@{Retrieve}}
+\index{Retrieve@{Retrieve}!C\+B\+R\+A\+PI@{C\+B\+R\+A\+PI}}
+\subsubsection{\texorpdfstring{Retrieve()}{Retrieve()}}
+{\footnotesize\ttfamily List$<$\hyperlink{class_result}{Result}$>$ C\+B\+R\+A\+P\+I.\+Retrieve (\begin{DoxyParamCaption}\item[{\hyperlink{class_case}{Case}}]{search\+Case,  }\item[{\hyperlink{class_consult_structure}{Consult\+Structure}}]{consult\+Structure }\end{DoxyParamCaption})}
+
+
+
+Realiza e etapa de recuperação do ciclo de C\+BR. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em search\+Case} & Caso de consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 68 of file C\+B\+R\+A\+P\+I.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Core/\hyperlink{_c_b_r_a_p_i_8cs}{C\+B\+R\+A\+P\+I.\+cs}\end{DoxyCompactItemize}

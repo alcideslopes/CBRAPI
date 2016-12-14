@@ -1,0 +1,87 @@
+.TH "AbstractGlobalSimilarity" 3 "Sun Nov 27 2016" "CBRAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AbstractGlobalSimilarity \- Classe abstrata que representa uma medida de similaridade global que será implementada na biblioteca CBR\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBEuclideanDistance\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAbstractGlobalSimilarity\fP (\fBConsultStructure\fP \fBconsultStructure\fP)"
+.br
+.RI "Construtor da classe \fBAbstractGlobalSimilarity\fP\&. "
+.ti -1c
+.RI "abstract float \fBGetSimilarity\fP (\fBCase\fP searchCase, \fBCase\fP retrieveCase)"
+.br
+.RI "Método abstrato que deve ser implementado por todas as classes que extenderem a classe \fBAbstractGlobalSimilarity\fP\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBConsultStructure\fP \fBconsultStructure\fP"
+.br
+.RI "Estrutura da consulta que será informada por cada classe que extender a classe \fBAbstractGlobalSimilarity\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe abstrata que representa uma medida de similaridade global que será implementada na biblioteca CBR\&. 
+
+
+.PP
+Definition at line 5 of file AbstractGlobalSimilarity\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AbstractGlobalSimilarity\&.AbstractGlobalSimilarity (\fBConsultStructure\fP consultStructure)"
+
+.PP
+Construtor da classe \fBAbstractGlobalSimilarity\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIconsultStructure\fP Estrutura da consulta\&.
+.RE
+.PP
+
+.PP
+Definition at line 16 of file AbstractGlobalSimilarity\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract float AbstractGlobalSimilarity\&.GetSimilarity (\fBCase\fP searchCase, \fBCase\fP retrieveCase)\fC [pure virtual]\fP"
+
+.PP
+Método abstrato que deve ser implementado por todas as classes que extenderem a classe \fBAbstractGlobalSimilarity\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsearchCase\fP Caso utilizado como consulta\&.
+.br
+\fIretrieveCase\fP Caso recuperado da base de casos\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Valor de similardade entre os casos c1 e c2\&.
+.RE
+.PP
+
+.PP
+Implemented in \fBEuclideanDistance\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBConsultStructure\fP AbstractGlobalSimilarity\&.consultStructure"
+
+.PP
+Estrutura da consulta que será informada por cada classe que extender a classe \fBAbstractGlobalSimilarity\fP\&. 
+.PP
+Definition at line 10 of file AbstractGlobalSimilarity\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CBRAPI from the source code\&.
